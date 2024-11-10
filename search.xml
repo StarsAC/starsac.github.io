@@ -1,252 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/05/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
-<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h2 id="以下是一些markdown功能测试测试代码来自leanote"><a class="markdownIt-Anchor" href="#以下是一些markdown功能测试测试代码来自leanote"></a> 以下是一些markdown功能测试，测试代码来自Leanote</h2>
-<h2 id="1-排版"><a class="markdownIt-Anchor" href="#1-排版"></a> 1. 排版</h2>
-<p><strong>粗体</strong> <em>斜体</em></p>
-<p><s>这是一段错误的文本。</s></p>
-<p>引用:</p>
-<blockquote>
-<p>引用Leanote官方的话, 为什么要做Leanote, 原因是…</p>
-</blockquote>
-<p>有充列表:</p>
-<ol>
-<li>支持Vim</li>
-<li>支持Emacs</li>
-</ol>
-<p>无序列表:</p>
-<ul>
-<li>项目1</li>
-<li>项目2</li>
-</ul>
-<h2 id="2-图片与链接"><a class="markdownIt-Anchor" href="#2-图片与链接"></a> 2. 图片与链接</h2>
-<p>图片:<br />
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="http://leanote.com/images/logo/leanote_icon_blue.png"
-                      alt="leanote" 
-                ><br />
-链接:</p>
-<p><a class="link"   href="http://leanote.leanote.com" >这是去往Leanote官方博客的链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h2 id="3-标题"><a class="markdownIt-Anchor" href="#3-标题"></a> 3. 标题</h2>
-<p>以下是各级标题, 最多支持5级标题</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"># h1</span><br><span class="line">## h2</span><br><span class="line">### h3</span><br><span class="line">#### h4</span><br><span class="line">##### h4</span><br><span class="line">###### h5</span><br></pre></td></tr></table></figure></div>
-<h2 id="4-代码"><a class="markdownIt-Anchor" href="#4-代码"></a> 4. 代码</h2>
-<p>示例:</p>
-<pre><code>function get(key) &#123;
-    return m[key];
-&#125;
-</code></pre>
-<p>代码高亮示例:</p>
-<div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* nth element in the fibonacci series.</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param</span> n &gt;= 0</span></span><br><span class="line"><span class="comment">* <span class="doctag">@return</span> the nth element, &gt;= 0.</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">fib</span>(<span class="params">n</span>) &#123;</span><br><span class="line">  <span class="keyword">var</span> a = <span class="number">1</span>, b = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">var</span> tmp;</span><br><span class="line">  <span class="keyword">while</span> (--n &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">    tmp = a;</span><br><span class="line">    a += b;</span><br><span class="line">    b = tmp;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="title function_">fib</span>(<span class="number">10</span>));</span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Employee</span>:</span><br><span class="line">   empCount = <span class="number">0</span></span><br><span class="line"> </span><br><span class="line">   <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, name, salary</span>):</span><br><span class="line">        self.name = name</span><br><span class="line">        self.salary = salary</span><br><span class="line">        Employee.empCount += <span class="number">1</span></span><br></pre></td></tr></table></figure></div>
-<h1 id="5-markdown-扩展"><a class="markdownIt-Anchor" href="#5-markdown-扩展"></a> 5. Markdown 扩展</h1>
-<p>Markdown 扩展支持:</p>
-<ul>
-<li>表格</li>
-<li>定义型列表</li>
-<li>Html 标签</li>
-<li>脚注</li>
-<li>目录</li>
-<li>时序图与流程图</li>
-<li>MathJax 公式</li>
-</ul>
-<h2 id="51-表格"><a class="markdownIt-Anchor" href="#51-表格"></a> 5.1 表格</h2>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Computer</td>
-<td>$1600</td>
-</tr>
-<tr>
-<td>Phone</td>
-<td>$12</td>
-</tr>
-<tr>
-<td>Pipe</td>
-<td>$1</td>
-</tr>
-</tbody>
-</table>
-<p>可以指定对齐方式, 如Item列左对齐, Value列右对齐, Qty列居中对齐</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Item</th>
-<th style="text-align:right">Value</th>
-<th style="text-align:center">Qty</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Computer</td>
-<td style="text-align:right">$1600</td>
-<td style="text-align:center">5</td>
-</tr>
-<tr>
-<td style="text-align:left">Phone</td>
-<td style="text-align:right">$12</td>
-<td style="text-align:center">12</td>
-</tr>
-<tr>
-<td style="text-align:left">Pipe</td>
-<td style="text-align:right">$1</td>
-<td style="text-align:center">234</td>
-</tr>
-</tbody>
-</table>
-<h2 id="52-定义型列表"><a class="markdownIt-Anchor" href="#52-定义型列表"></a> 5.2 定义型列表</h2>
-<dl>
-<dt>名词 1</dt>
-<dd>
-<p>定义 1（左侧有一个可见的冒号和四个不可见的空格）</p>
-</dd>
-<dt>代码块 2</dt>
-<dd>
-<p>这是代码块的定义（左侧有一个可见的冒号和四个不可见的空格）</p>
-<pre><code>  代码块（左侧有八个不可见的空格）
-</code></pre>
-</dd>
-</dl>
-<h2 id="53-html-标签"><a class="markdownIt-Anchor" href="#53-html-标签"></a> 5.3 Html 标签</h2>
-<p>支持在 Markdown 语法中嵌套 Html 标签，譬如，你可以用 Html 写一个纵跨两行的表格：</p>
-<pre><code>&lt;table&gt;
-    &lt;tr&gt;
-        &lt;th rowspan=&quot;2&quot;&gt;值班人员&lt;/th&gt;
-        &lt;th&gt;星期一&lt;/th&gt;
-        &lt;th&gt;星期二&lt;/th&gt;
-        &lt;th&gt;星期三&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;李强&lt;/td&gt;
-        &lt;td&gt;张明&lt;/td&gt;
-        &lt;td&gt;王平&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-</code></pre>
-<table>
-    <tr>
-        <th rowspan="2">值班人员</th>
-        <th>星期一</th>
-        <th>星期二</th>
-        <th>星期三</th>
-    </tr>
-    <tr>
-        <td>李强</td>
-        <td>张明</td>
-        <td>王平</td>
-    </tr>
-</table>
-<p><strong>提示</strong>, 如果想对图片的宽度和高度进行控制, 你也可以通过img标签, 如:</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="http://leanote.com/images/logo/leanote_icon_blue.png"
-                      width="50px" 
-                >
-<h2 id="54-脚注"><a class="markdownIt-Anchor" href="#54-脚注"></a> 5.4 脚注</h2>
-<p>Leanote<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>来创建一个脚注</p>
-<h2 id="55-目录"><a class="markdownIt-Anchor" href="#55-目录"></a> 5.5 目录</h2>
-<p>通过 <code>[TOC]</code> 在文档中插入目录, 如:</p>
-<p>[TOC]</p>
-<h2 id="56-时序图与流程图"><a class="markdownIt-Anchor" href="#56-时序图与流程图"></a> 5.6 时序图与流程图</h2>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></table></figure></div>
-<p>流程图:</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">st=&gt;start: Start</span><br><span class="line">e=&gt;end</span><br><span class="line">op=&gt;operation: My Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line"> </span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure></div>
-<blockquote>
-<p><strong>提示:</strong> 更多关于时序图与流程图的语法请参考:</p>
-</blockquote>
-<blockquote>
-<ul>
-<li><a class="link"   href="http://bramp.github.io/js-sequence-diagrams/" >时序图语法 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="http://adrai.github.io/flowchart.js" >流程图语法 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-</blockquote>
-<h2 id="57-mathjax-公式"><a class="markdownIt-Anchor" href="#57-mathjax-公式"></a> 5.7 MathJax 公式</h2>
-<p>$ 表示行内公式：</p>
-<p>质能守恒方程可以用一个很简洁的方程式 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E=mc^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> 来表达。</p>
-<p class='katex-block katex-error' title='ParseError: KaTeX parse error: Can&#039;t use function &#039;$&#039; in math mode at position 11:  表示整行公式：
-
-$̲$\sum_{i=1}^n a…'> 表示整行公式：
-
-$$\sum_{i=1}^n a_i=0</p>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo separator="true">,</mo><msub><mi>x</mi><mi>x</mi></msub><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy="false">)</mo><mo>=</mo><msubsup><mi>x</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>x</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><mo>⋯</mo><mo>+</mo><msubsup><mi>x</mi><mi>n</mi><mn>2</mn></msubsup></mrow><annotation encoding="application/x-tex">f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner">…</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.1111079999999998em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.1111079999999998em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.1111079999999998em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span></span></p>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>j</mi><mo>−</mo><mn>1</mn></mrow></munderover><mrow><msub><mover accent="true"><mi>γ</mi><mo stretchy="true">^</mo></mover><mrow><mi>k</mi><mi>j</mi></mrow></msub><msub><mi>z</mi><mi>k</mi></msub></mrow></mrow><annotation encoding="application/x-tex">\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3.16089em;vertical-align:-1.302113em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.8587770000000001em;"><span style="top:-1.8478869999999998em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span><span class="mrel mtight">=</span><span class="mord mtight">0</span></span></span></span><span style="top:-3.0500049999999996em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.347113em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.302113em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord accent"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.67056em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05556em;">γ</span></span></span><span class="svg-align" style="top:-3.43056em;"><span class="pstrut" style="height:3em;"></span><span style="height:0.24em;"><svg width='100%' height='0.24em' viewBox='0 0 1062 239' preserveAspectRatio='none'><path d='M529 0h5l519 115c5 1 9 5 9 10 0 1-1 2-1 3l-4 22
-c-1 5-5 9-11 9h-2L532 67 19 159h-2c-5 0-9-4-11-9l-5-22c-1-6 2-12 8-13z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.04398em;">z</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.04398em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
-<p>更复杂的公式:</p>
-<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: eqnarray at position 7: \begin{̲e̲q̲n̲a̲r̲r̲a̲y̲}̲
-\vec\nabla \ti…'>\begin{eqnarray}
-\vec\nabla \times (\vec\nabla f) &amp; = &amp; 0  \cdots\cdots梯度场必是无旋场\\
-\vec\nabla \cdot(\vec\nabla \times \vec F) &amp; = &amp; 0\cdots\cdots旋度场必是无散场\\
-\vec\nabla \cdot (\vec\nabla f) &amp; = &amp; {\vec\nabla}^2f\\
-\vec\nabla \times(\vec\nabla \times \vec F) &amp; = &amp; \vec\nabla(\vec\nabla \cdot \vec F) - {\vec\nabla}^2 \vec F\\
-\end{eqnarray}
-</p>
-<p>访问 <a class="link"   href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" >MathJax <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 参考更多使用方法。</p>
-<blockquote>
-<p>[!NOTE]</p>
-<p>111</p>
-</blockquote>
-<blockquote>
-<p>[!TIP]</p>
-<p>222</p>
-</blockquote>
-<blockquote>
-<p>[!IMPORTANT]</p>
-<p>333</p>
-</blockquote>
-<blockquote>
-<p>[!WARNING]</p>
-<p>444</p>
-</blockquote>
-<blockquote>
-<p>[!CAUTION]</p>
-<p>张三</p>
-<p>多行</p>
-</blockquote>
-<p>测试文字<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
-<hr />
-<p><a href="www.bing.com">去必应</a></p>
-<hr />
-<p>iframe框架</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=520 src="//music.163.com/outchain/player?type=1&id=289617&auto=1&height=430"></iframe>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>Leanote是一款强大的开源云笔记产品. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>这是一段脚注 <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-  </entry>
-  <entry>
     <title>HP 600G1 DM 微型主机安装黑苹果</title>
     <url>/2024/05/14/HP-600G1-DM-%E5%BE%AE%E5%9E%8B%E4%B8%BB%E6%9C%BA%E5%AE%89%E8%A3%85%E9%BB%91%E8%8B%B9%E6%9E%9C/</url>
     <content><![CDATA[<h2 id="hp600g1"><a class="markdownIt-Anchor" href="#hp600g1"></a> <img  
@@ -582,83 +336,12 @@ c-1 5-5 9-11 9h-2L532 67 19 159h-2c-5 0-9-4-11-9l-5-22c-1-6 2-12 8-13z'/></svg><
 <p><code>java Extract &lt;file&gt; -p no_password</code>在output.txt发现flag</p>
 ]]></content>
       <categories>
-        <category>Sofware</category>
+        <category>Software</category>
         <category>CTF</category>
       </categories>
       <tags>
         <tag>CTF</tag>
         <tag>Software</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>[Arduino编程]使用LiquidCrystal_I2C库驱动LCD1602液晶显示屏</title>
-    <url>/2024/05/13/%5BArduino%E7%BC%96%E7%A8%8B%5D%E4%BD%BF%E7%94%A8LiquidCrystal_I2C%E5%BA%93%E9%A9%B1%E5%8A%A8LCD1602%E6%B6%B2%E6%99%B6%E6%98%BE%E7%A4%BA%E5%B1%8F/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://resources.starsac.cn/2024/10/lcd1602%20(3).png"
-                      alt="lcd1602" 
-                ></p>
-<h2 id="1前言"><a class="markdownIt-Anchor" href="#1前言"></a> 1.前言</h2>
-<p>LCD1602是一种16列2行的液晶显示屏, 可以显示数字, 拉丁字母和少量符号. 原版1602显示屏使用并行数据传输, 有8个数据引脚. 可通过增加PCF8574芯片使其支持IIC总线. 支持IIC总线的1602显示屏有四个引脚:</p>
-<table>
-<thead>
-<tr>
-<th>LCD1602引脚</th>
-<th>VCC</th>
-<th>GND</th>
-<th>SDA</th>
-<th>SCL</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>对应连接的Arduino引脚</td>
-<td>5V</td>
-<td>GND</td>
-<td>SDA</td>
-<td>SCL</td>
-</tr>
-</tbody>
-</table>
-<p>通过<code>LiquidCrystal_I2C</code>库, 我们可以很方便地通过IIC总线驱动LCD1602显示屏.</p>
-<h2 id="2安装liquidcrystal_i2c库"><a class="markdownIt-Anchor" href="#2安装liquidcrystal_i2c库"></a> 2.安装<code>LiquidCrystal_I2C</code>库</h2>
-<p>新版Arduino IDE提供了库管理器, 可以很方便地在左侧边栏的库管理搜索并添加<code>LiquidCrystal_I2C</code>库.</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://resources.starsac.cn/2024/10/lcd1602%20(1).png"
-                      alt="添加库文件" 
-                ></p>
-<p>也可以通过<a class="link"   href="https://github.com/johnrickman/LiquidCrystal_I2C" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>页面下载<code>.zip</code>文件导入Arduino IDE进行安装.</p>
-<h2 id="3连接硬件"><a class="markdownIt-Anchor" href="#3连接硬件"></a> 3.连接硬件</h2>
-<p>按照表格依次将四根导线连接到Arduino开发板上.</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://resources.starsac.cn/2024/10/lcd1602%20(2).png"
-                      alt="连线图" 
-                ></p>
-<h2 id="4编写程序使用arduino库"><a class="markdownIt-Anchor" href="#4编写程序使用arduino库"></a> 4.编写程序使用Arduino库</h2>
-<h4 id="41包含库文件-创建对象"><a class="markdownIt-Anchor" href="#41包含库文件-创建对象"></a> 41.包含库文件, 创建对象</h4>
-<p>在程序源代码开头, 我们需要包含<code>LiquidCrystal_I2C</code>库, 并且创建LCD对象.</p>
-<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;LiquidCrystal_I2C.h&gt;</span></span></span><br><span class="line"><span class="comment">// 这里设置LCD地址为0x27, 有16列, 2行</span></span><br><span class="line">LiquidCrystal_I2C <span class="title function_">mylcd</span><span class="params">(<span class="number">0x27</span>, <span class="number">16</span>, <span class="number">2</span>)</span>;  </span><br></pre></td></tr></table></figure></div>
-<h4 id="42void-setup函数"><a class="markdownIt-Anchor" href="#42void-setup函数"></a> 42.<code>void setup()</code>函数</h4>
-<p>在<code>setup()</code>函数部分, 我们可以进行初始化, 开启背光等操作.</p>
-<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span>&#123;</span><br><span class="line">    mylcd.init();		<span class="comment">// 初始化LCD</span></span><br><span class="line">    mylcd.backlight();	<span class="comment">// 打开背光</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h4 id="43void-loop函数"><a class="markdownIt-Anchor" href="#43void-loop函数"></a> 43.<code>void loop()</code>函数</h4>
-<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span>&#123;</span><br><span class="line">    mylcd.setCursor(<span class="number">0</span>,<span class="number">0</span>);			<span class="comment">// 设置光标位置</span></span><br><span class="line">    mylcd.print(<span class="string">&quot;Hello World!&quot;</span>);	<span class="comment">// 打印文字</span></span><br><span class="line">    mylcd.print(analogRead(A0));	<span class="comment">// 输出变量的值</span></span><br><span class="line">  	mylcd.setCursor(<span class="number">4</span>,<span class="number">1</span>);			<span class="comment">// 可以任意设置光标的位置</span></span><br><span class="line">  	mylcd.print(<span class="string">&quot;by StarsAC&quot;</span>);</span><br><span class="line">    delay(<span class="number">1000</span>);</span><br><span class="line">    mylcd.clear();					<span class="comment">// 清除显示内容</span></span><br><span class="line">    delay(<span class="number">1000</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h2 id="5其他示例程序"><a class="markdownIt-Anchor" href="#5其他示例程序"></a> 5.其他示例程序</h2>
-<h4 id="51使屏幕显示从串口发来的内容"><a class="markdownIt-Anchor" href="#51使屏幕显示从串口发来的内容"></a> 51.使屏幕显示从串口发来的内容</h4>
-<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;Wire.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;LiquidCrystal_I2C.h&gt;</span></span></span><br><span class="line">LiquidCrystal_I2C <span class="title function_">mylcd</span><span class="params">(<span class="number">0x27</span>,<span class="number">16</span>,<span class="number">2</span>)</span>;</span><br><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span>&#123;</span><br><span class="line">  mylcd.init();</span><br><span class="line">  mylcd.backlight();</span><br><span class="line">  Serial.begin(<span class="number">9600</span>);	<span class="comment">// 打开串口通讯, 设置波特率为9600</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (Serial.available())&#123;	<span class="comment">// 当有数据从串口发来时</span></span><br><span class="line">    delay(<span class="number">100</span>);</span><br><span class="line">    mylcd.clear();</span><br><span class="line">    <span class="keyword">while</span> (Serial.available() &gt; <span class="number">0</span>)&#123;	<span class="comment">// 通过while循环读取所有串口数据</span></span><br><span class="line">      mylcd.write(Serial.read());		<span class="comment">// 将每个字符显示至LCD屏幕</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>Hardware</category>
-        <category>MCU</category>
-      </categories>
-      <tags>
-        <tag>Hardware</tag>
-        <tag>Arduino</tag>
       </tags>
   </entry>
   <entry>
@@ -736,12 +419,329 @@ c-1 5-5 9-11 9h-2L532 67 19 159h-2c-5 0-9-4-11-9l-5-22c-1-6 2-12 8-13z'/></svg><
                 ></p>
 ]]></content>
       <categories>
-        <category>Sofware</category>
+        <category>Software</category>
         <category>CTF</category>
       </categories>
       <tags>
         <tag>CTF</tag>
         <tag>Software</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/05/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
+<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
+<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="以下是一些markdown功能测试测试代码来自leanote"><a class="markdownIt-Anchor" href="#以下是一些markdown功能测试测试代码来自leanote"></a> 以下是一些markdown功能测试，测试代码来自Leanote</h2>
+<h2 id="1-排版"><a class="markdownIt-Anchor" href="#1-排版"></a> 1. 排版</h2>
+<p><strong>粗体</strong> <em>斜体</em></p>
+<p><s>这是一段错误的文本。</s></p>
+<p>引用:</p>
+<blockquote>
+<p>引用Leanote官方的话, 为什么要做Leanote, 原因是…</p>
+</blockquote>
+<p>有充列表:</p>
+<ol>
+<li>支持Vim</li>
+<li>支持Emacs</li>
+</ol>
+<p>无序列表:</p>
+<ul>
+<li>项目1</li>
+<li>项目2</li>
+</ul>
+<h2 id="2-图片与链接"><a class="markdownIt-Anchor" href="#2-图片与链接"></a> 2. 图片与链接</h2>
+<p>图片:<br />
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://leanote.com/images/logo/leanote_icon_blue.png"
+                      alt="leanote" 
+                ><br />
+链接:</p>
+<p><a class="link"   href="http://leanote.leanote.com" >这是去往Leanote官方博客的链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="3-标题"><a class="markdownIt-Anchor" href="#3-标题"></a> 3. 标题</h2>
+<p>以下是各级标题, 最多支持5级标题</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"># h1</span><br><span class="line">## h2</span><br><span class="line">### h3</span><br><span class="line">#### h4</span><br><span class="line">##### h4</span><br><span class="line">###### h5</span><br></pre></td></tr></table></figure></div>
+<h2 id="4-代码"><a class="markdownIt-Anchor" href="#4-代码"></a> 4. 代码</h2>
+<p>示例:</p>
+<pre><code>function get(key) &#123;
+    return m[key];
+&#125;
+</code></pre>
+<p>代码高亮示例:</p>
+<div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* nth element in the fibonacci series.</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param</span> n &gt;= 0</span></span><br><span class="line"><span class="comment">* <span class="doctag">@return</span> the nth element, &gt;= 0.</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">fib</span>(<span class="params">n</span>) &#123;</span><br><span class="line">  <span class="keyword">var</span> a = <span class="number">1</span>, b = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">var</span> tmp;</span><br><span class="line">  <span class="keyword">while</span> (--n &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">    tmp = a;</span><br><span class="line">    a += b;</span><br><span class="line">    b = tmp;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="title function_">fib</span>(<span class="number">10</span>));</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Employee</span>:</span><br><span class="line">   empCount = <span class="number">0</span></span><br><span class="line"> </span><br><span class="line">   <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, name, salary</span>):</span><br><span class="line">        self.name = name</span><br><span class="line">        self.salary = salary</span><br><span class="line">        Employee.empCount += <span class="number">1</span></span><br></pre></td></tr></table></figure></div>
+<h1 id="5-markdown-扩展"><a class="markdownIt-Anchor" href="#5-markdown-扩展"></a> 5. Markdown 扩展</h1>
+<p>Markdown 扩展支持:</p>
+<ul>
+<li>表格</li>
+<li>定义型列表</li>
+<li>Html 标签</li>
+<li>脚注</li>
+<li>目录</li>
+<li>时序图与流程图</li>
+<li>MathJax 公式</li>
+</ul>
+<h2 id="51-表格"><a class="markdownIt-Anchor" href="#51-表格"></a> 5.1 表格</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Computer</td>
+<td>$1600</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>$12</td>
+</tr>
+<tr>
+<td>Pipe</td>
+<td>$1</td>
+</tr>
+</tbody>
+</table>
+<p>可以指定对齐方式, 如Item列左对齐, Value列右对齐, Qty列居中对齐</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Item</th>
+<th style="text-align:right">Value</th>
+<th style="text-align:center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Computer</td>
+<td style="text-align:right">$1600</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:left">Phone</td>
+<td style="text-align:right">$12</td>
+<td style="text-align:center">12</td>
+</tr>
+<tr>
+<td style="text-align:left">Pipe</td>
+<td style="text-align:right">$1</td>
+<td style="text-align:center">234</td>
+</tr>
+</tbody>
+</table>
+<h2 id="52-定义型列表"><a class="markdownIt-Anchor" href="#52-定义型列表"></a> 5.2 定义型列表</h2>
+<dl>
+<dt>名词 1</dt>
+<dd>
+<p>定义 1（左侧有一个可见的冒号和四个不可见的空格）</p>
+</dd>
+<dt>代码块 2</dt>
+<dd>
+<p>这是代码块的定义（左侧有一个可见的冒号和四个不可见的空格）</p>
+<pre><code>  代码块（左侧有八个不可见的空格）
+</code></pre>
+</dd>
+</dl>
+<h2 id="53-html-标签"><a class="markdownIt-Anchor" href="#53-html-标签"></a> 5.3 Html 标签</h2>
+<p>支持在 Markdown 语法中嵌套 Html 标签，譬如，你可以用 Html 写一个纵跨两行的表格：</p>
+<pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th rowspan=&quot;2&quot;&gt;值班人员&lt;/th&gt;
+        &lt;th&gt;星期一&lt;/th&gt;
+        &lt;th&gt;星期二&lt;/th&gt;
+        &lt;th&gt;星期三&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;李强&lt;/td&gt;
+        &lt;td&gt;张明&lt;/td&gt;
+        &lt;td&gt;王平&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+<table>
+    <tr>
+        <th rowspan="2">值班人员</th>
+        <th>星期一</th>
+        <th>星期二</th>
+        <th>星期三</th>
+    </tr>
+    <tr>
+        <td>李强</td>
+        <td>张明</td>
+        <td>王平</td>
+    </tr>
+</table>
+<p><strong>提示</strong>, 如果想对图片的宽度和高度进行控制, 你也可以通过img标签, 如:</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://leanote.com/images/logo/leanote_icon_blue.png"
+                      width="50px" 
+                >
+<h2 id="54-脚注"><a class="markdownIt-Anchor" href="#54-脚注"></a> 5.4 脚注</h2>
+<p>Leanote<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>来创建一个脚注</p>
+<h2 id="55-目录"><a class="markdownIt-Anchor" href="#55-目录"></a> 5.5 目录</h2>
+<p>通过 <code>[TOC]</code> 在文档中插入目录, 如:</p>
+<p>[TOC]</p>
+<h2 id="56-时序图与流程图"><a class="markdownIt-Anchor" href="#56-时序图与流程图"></a> 5.6 时序图与流程图</h2>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></table></figure></div>
+<p>流程图:</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">st=&gt;start: Start</span><br><span class="line">e=&gt;end</span><br><span class="line">op=&gt;operation: My Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line"> </span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure></div>
+<blockquote>
+<p><strong>提示:</strong> 更多关于时序图与流程图的语法请参考:</p>
+</blockquote>
+<blockquote>
+<ul>
+<li><a class="link"   href="http://bramp.github.io/js-sequence-diagrams/" >时序图语法 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="http://adrai.github.io/flowchart.js" >流程图语法 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+</blockquote>
+<h2 id="57-mathjax-公式"><a class="markdownIt-Anchor" href="#57-mathjax-公式"></a> 5.7 MathJax 公式</h2>
+<p>$ 表示行内公式：</p>
+<p>质能守恒方程可以用一个很简洁的方程式 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E=mc^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> 来表达。</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: Can&#039;t use function &#039;$&#039; in math mode at position 11:  表示整行公式：
+
+$̲$\sum_{i=1}^n a…'> 表示整行公式：
+
+$$\sum_{i=1}^n a_i=0</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo separator="true">,</mo><msub><mi>x</mi><mi>x</mi></msub><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy="false">)</mo><mo>=</mo><msubsup><mi>x</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>x</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><mo>⋯</mo><mo>+</mo><msubsup><mi>x</mi><mi>n</mi><mn>2</mn></msubsup></mrow><annotation encoding="application/x-tex">f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner">…</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.1111079999999998em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.1111079999999998em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.1111079999999998em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>j</mi><mo>−</mo><mn>1</mn></mrow></munderover><mrow><msub><mover accent="true"><mi>γ</mi><mo stretchy="true">^</mo></mover><mrow><mi>k</mi><mi>j</mi></mrow></msub><msub><mi>z</mi><mi>k</mi></msub></mrow></mrow><annotation encoding="application/x-tex">\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3.16089em;vertical-align:-1.302113em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.8587770000000001em;"><span style="top:-1.8478869999999998em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span><span class="mrel mtight">=</span><span class="mord mtight">0</span></span></span></span><span style="top:-3.0500049999999996em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.347113em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.302113em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord accent"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.67056em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05556em;">γ</span></span></span><span class="svg-align" style="top:-3.43056em;"><span class="pstrut" style="height:3em;"></span><span style="height:0.24em;"><svg width='100%' height='0.24em' viewBox='0 0 1062 239' preserveAspectRatio='none'><path d='M529 0h5l519 115c5 1 9 5 9 10 0 1-1 2-1 3l-4 22
+c-1 5-5 9-11 9h-2L532 67 19 159h-2c-5 0-9-4-11-9l-5-22c-1-6 2-12 8-13z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.04398em;">z</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.04398em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p>更复杂的公式:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: eqnarray at position 7: \begin{̲e̲q̲n̲a̲r̲r̲a̲y̲}̲
+\vec\nabla \ti…'>\begin{eqnarray}
+\vec\nabla \times (\vec\nabla f) &amp; = &amp; 0  \cdots\cdots梯度场必是无旋场\\
+\vec\nabla \cdot(\vec\nabla \times \vec F) &amp; = &amp; 0\cdots\cdots旋度场必是无散场\\
+\vec\nabla \cdot (\vec\nabla f) &amp; = &amp; {\vec\nabla}^2f\\
+\vec\nabla \times(\vec\nabla \times \vec F) &amp; = &amp; \vec\nabla(\vec\nabla \cdot \vec F) - {\vec\nabla}^2 \vec F\\
+\end{eqnarray}
+</p>
+<p>访问 <a class="link"   href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" >MathJax <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 参考更多使用方法。</p>
+<blockquote>
+<p>[!NOTE]</p>
+<p>111</p>
+</blockquote>
+<blockquote>
+<p>[!TIP]</p>
+<p>222</p>
+</blockquote>
+<blockquote>
+<p>[!IMPORTANT]</p>
+<p>333</p>
+</blockquote>
+<blockquote>
+<p>[!WARNING]</p>
+<p>444</p>
+</blockquote>
+<blockquote>
+<p>[!CAUTION]</p>
+<p>张三</p>
+<p>多行</p>
+</blockquote>
+<p>测试文字<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
+<hr />
+<p><a href="www.bing.com">去必应</a></p>
+<hr />
+<p>iframe框架</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=520 src="//music.163.com/outchain/player?type=1&id=289617&auto=1&height=430"></iframe>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Leanote是一款强大的开源云笔记产品. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>这是一段脚注 <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+  </entry>
+  <entry>
+    <title>[Arduino编程]使用LiquidCrystal_I2C库驱动LCD1602液晶显示屏</title>
+    <url>/2024/05/13/%5BArduino%E7%BC%96%E7%A8%8B%5D%E4%BD%BF%E7%94%A8LiquidCrystal_I2C%E5%BA%93%E9%A9%B1%E5%8A%A8LCD1602%E6%B6%B2%E6%99%B6%E6%98%BE%E7%A4%BA%E5%B1%8F/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://resources.starsac.cn/2024/10/lcd1602%20(3).png"
+                      alt="lcd1602" 
+                ></p>
+<h2 id="1前言"><a class="markdownIt-Anchor" href="#1前言"></a> 1.前言</h2>
+<p>LCD1602是一种16列2行的液晶显示屏, 可以显示数字, 拉丁字母和少量符号. 原版1602显示屏使用并行数据传输, 有8个数据引脚. 可通过增加PCF8574芯片使其支持IIC总线. 支持IIC总线的1602显示屏有四个引脚:</p>
+<table>
+<thead>
+<tr>
+<th>LCD1602引脚</th>
+<th>VCC</th>
+<th>GND</th>
+<th>SDA</th>
+<th>SCL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>对应连接的Arduino引脚</td>
+<td>5V</td>
+<td>GND</td>
+<td>SDA</td>
+<td>SCL</td>
+</tr>
+</tbody>
+</table>
+<p>通过<code>LiquidCrystal_I2C</code>库, 我们可以很方便地通过IIC总线驱动LCD1602显示屏.</p>
+<h2 id="2安装liquidcrystal_i2c库"><a class="markdownIt-Anchor" href="#2安装liquidcrystal_i2c库"></a> 2.安装<code>LiquidCrystal_I2C</code>库</h2>
+<p>新版Arduino IDE提供了库管理器, 可以很方便地在左侧边栏的库管理搜索并添加<code>LiquidCrystal_I2C</code>库.</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://resources.starsac.cn/2024/10/lcd1602%20(1).png"
+                      alt="添加库文件" 
+                ></p>
+<p>也可以通过<a class="link"   href="https://github.com/johnrickman/LiquidCrystal_I2C" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>页面下载<code>.zip</code>文件导入Arduino IDE进行安装.</p>
+<h2 id="3连接硬件"><a class="markdownIt-Anchor" href="#3连接硬件"></a> 3.连接硬件</h2>
+<p>按照表格依次将四根导线连接到Arduino开发板上.</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://resources.starsac.cn/2024/10/lcd1602%20(2).png"
+                      alt="连线图" 
+                ></p>
+<h2 id="4编写程序使用arduino库"><a class="markdownIt-Anchor" href="#4编写程序使用arduino库"></a> 4.编写程序使用Arduino库</h2>
+<h4 id="41包含库文件-创建对象"><a class="markdownIt-Anchor" href="#41包含库文件-创建对象"></a> 41.包含库文件, 创建对象</h4>
+<p>在程序源代码开头, 我们需要包含<code>LiquidCrystal_I2C</code>库, 并且创建LCD对象.</p>
+<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;LiquidCrystal_I2C.h&gt;</span></span></span><br><span class="line"><span class="comment">// 这里设置LCD地址为0x27, 有16列, 2行</span></span><br><span class="line">LiquidCrystal_I2C <span class="title function_">mylcd</span><span class="params">(<span class="number">0x27</span>, <span class="number">16</span>, <span class="number">2</span>)</span>;  </span><br></pre></td></tr></table></figure></div>
+<h4 id="42void-setup函数"><a class="markdownIt-Anchor" href="#42void-setup函数"></a> 42.<code>void setup()</code>函数</h4>
+<p>在<code>setup()</code>函数部分, 我们可以进行初始化, 开启背光等操作.</p>
+<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span>&#123;</span><br><span class="line">    mylcd.init();		<span class="comment">// 初始化LCD</span></span><br><span class="line">    mylcd.backlight();	<span class="comment">// 打开背光</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h4 id="43void-loop函数"><a class="markdownIt-Anchor" href="#43void-loop函数"></a> 43.<code>void loop()</code>函数</h4>
+<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span>&#123;</span><br><span class="line">    mylcd.setCursor(<span class="number">0</span>,<span class="number">0</span>);			<span class="comment">// 设置光标位置</span></span><br><span class="line">    mylcd.print(<span class="string">&quot;Hello World!&quot;</span>);	<span class="comment">// 打印文字</span></span><br><span class="line">    mylcd.print(analogRead(A0));	<span class="comment">// 输出变量的值</span></span><br><span class="line">  	mylcd.setCursor(<span class="number">4</span>,<span class="number">1</span>);			<span class="comment">// 可以任意设置光标的位置</span></span><br><span class="line">  	mylcd.print(<span class="string">&quot;by StarsAC&quot;</span>);</span><br><span class="line">    delay(<span class="number">1000</span>);</span><br><span class="line">    mylcd.clear();					<span class="comment">// 清除显示内容</span></span><br><span class="line">    delay(<span class="number">1000</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h2 id="5其他示例程序"><a class="markdownIt-Anchor" href="#5其他示例程序"></a> 5.其他示例程序</h2>
+<h4 id="51使屏幕显示从串口发来的内容"><a class="markdownIt-Anchor" href="#51使屏幕显示从串口发来的内容"></a> 51.使屏幕显示从串口发来的内容</h4>
+<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;Wire.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;LiquidCrystal_I2C.h&gt;</span></span></span><br><span class="line">LiquidCrystal_I2C <span class="title function_">mylcd</span><span class="params">(<span class="number">0x27</span>,<span class="number">16</span>,<span class="number">2</span>)</span>;</span><br><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span>&#123;</span><br><span class="line">  mylcd.init();</span><br><span class="line">  mylcd.backlight();</span><br><span class="line">  Serial.begin(<span class="number">9600</span>);	<span class="comment">// 打开串口通讯, 设置波特率为9600</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (Serial.available())&#123;	<span class="comment">// 当有数据从串口发来时</span></span><br><span class="line">    delay(<span class="number">100</span>);</span><br><span class="line">    mylcd.clear();</span><br><span class="line">    <span class="keyword">while</span> (Serial.available() &gt; <span class="number">0</span>)&#123;	<span class="comment">// 通过while循环读取所有串口数据</span></span><br><span class="line">      mylcd.write(Serial.read());		<span class="comment">// 将每个字符显示至LCD屏幕</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>Hardware</category>
+        <category>MCU</category>
+      </categories>
+      <tags>
+        <tag>Hardware</tag>
+        <tag>Arduino</tag>
       </tags>
   </entry>
 </search>
