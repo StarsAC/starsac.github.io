@@ -1,0 +1,117 @@
+baseURL = 'https://www.starsac.cn'
+locale = 'zh-cn'
+title = 'Intersteller Cabin'
+theme = 'hugo-coder'
+languagecode = 'zh-cn'
+defaultcontentlanguage = "zh-cn"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+#shortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "StarsAC"
+  info = "Full Stack DevOps"
+  description = "StarsAC's personal website"
+  keywords = "blog,developer,personal,journal"
+  avatarurl = "images/profile.png"
+
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "images/favicon.svg"
+  favicon_32 = "images/favicon.png"
+  favicon_16 = "images/favicon.png"
+  touchIcon = "images/favicon.png"
+  mask_icon = "images/favicon.svg"
+  mask_icon_color = "#111"
+
+  since = 2023
+
+  maxSeeAlsoItems = 5
+
+  commit = "https://github.com/starsac/starsac.github.io/tree"
+
+  rtl = false
+
+  math = true
+  katex = false
+
+
+  enableTwemoji = true
+
+  disableDefaultJsScripts = false
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+  # customRemoteJS = ["js/custom.js"]
+
+  # HeadTitle = ""
+
+  license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+
+  icpRecord = "豫ICP备2025146631号"
+  policeRecord = "豫公网安备41040202000283号"
+  policeLink = "https://beian.mps.gov.cn/#/query/webSearch?code=41040202000283"
+  # 可选：自定义公安图标
+  policeIcon = "/images/beian.png"
+
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/starsac/"
+[[params.social]]
+  name = "Email"
+  icon = "fa-solid fa-envelope fa-2x"
+  weight = 2
+  url = "mailto://starsac@starsac.cn"
+[[params.social]]
+  name = "Bilibili"
+  icon = "fa-brands fa-bilibili fa-2x"
+  weight = 3
+  url = "https://space.bilibili.com/33933889"
+[[params.social]]
+  name = "Gitea"
+  icon = "fa-brands fa-git fa-2x"
+  weight = 4
+  url = "https://repo.starsac.cn"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "Tags"
+  weight = 2
+  url  = "tags/"
+[[menu.main]]
+  name = "Projects"
+  weight = 3
+  url  = "projects/"
+[[menu.main]]
+  name = "About"
+  weight = 4
+  url = "about/"
+
+ 
+
